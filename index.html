@@ -1,0 +1,5707 @@
+<!DOCTYPE html>
+<html
+  lang="en-US"
+  class="vlt-is--header-fullscreen vlt-is--footer-hide vlt-is--lowercase-mode"
+>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,user-scalable=no"
+    />
+    <link rel="profile" href="http://gmpg.org/xfn/11" />
+    <meta name="theme-color" content="#ee3364" />
+    <title>GrislysCosmic</title>
+    <meta name="robots" content="max-image-preview:large" />
+    <link rel="dns-prefetch" href="//maps.googleapis.com" />
+    <link rel="dns-prefetch" href="//use.fontawesome.com" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="GrislysCosmic &raquo; Feed"
+      href="/feed/"
+    />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="GrislysCosmic &raquo; Comments Feed"
+      href="/comments/feed/"
+    />
+    <script type="text/javascript">
+      window._wpemojiSettings = {
+        baseUrl: "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/",
+        ext: ".png",
+        svgUrl: "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/",
+        svgExt: ".svg",
+        source: {
+          concatemoji:
+            "https:\/\/grislyscosmic.com\/dev\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.6.2",
+        },
+      };
+      /*! This file is auto-generated */
+      !(function (i, n) {
+        var o, s, e;
+        function c(e) {
+          try {
+            var t = { supportTests: e, timestamp: new Date().valueOf() };
+            sessionStorage.setItem(o, JSON.stringify(t));
+          } catch (e) {}
+        }
+        function p(e, t, n) {
+          e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+            e.fillText(t, 0, 0);
+          var t = new Uint32Array(
+              e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+            ),
+            r =
+              (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+              e.fillText(n, 0, 0),
+              new Uint32Array(
+                e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+              ));
+          return t.every(function (e, t) {
+            return e === r[t];
+          });
+        }
+        function u(e, t, n) {
+          switch (t) {
+            case "flag":
+              return n(
+                e,
+                "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f",
+                "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f"
+              )
+                ? !1
+                : !n(
+                    e,
+                    "\ud83c\uddfa\ud83c\uddf3",
+                    "\ud83c\uddfa\u200b\ud83c\uddf3"
+                  ) &&
+                    !n(
+                      e,
+                      "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
+                      "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
+                    );
+            case "emoji":
+              return !n(
+                e,
+                "\ud83d\udc26\u200d\u2b1b",
+                "\ud83d\udc26\u200b\u2b1b"
+              );
+          }
+          return !1;
+        }
+        function f(e, t, n) {
+          var r =
+              "undefined" != typeof WorkerGlobalScope &&
+              self instanceof WorkerGlobalScope
+                ? new OffscreenCanvas(300, 150)
+                : i.createElement("canvas"),
+            a = r.getContext("2d", { willReadFrequently: !0 }),
+            o = ((a.textBaseline = "top"), (a.font = "600 32px Arial"), {});
+          return (
+            e.forEach(function (e) {
+              o[e] = t(a, e, n);
+            }),
+            o
+          );
+        }
+        function t(e) {
+          var t = i.createElement("script");
+          (t.src = e), (t.defer = !0), i.head.appendChild(t);
+        }
+        "undefined" != typeof Promise &&
+          ((o = "wpEmojiSettingsSupports"),
+          (s = ["flag", "emoji"]),
+          (n.supports = { everything: !0, everythingExceptFlag: !0 }),
+          (e = new Promise(function (e) {
+            i.addEventListener("DOMContentLoaded", e, { once: !0 });
+          })),
+          new Promise(function (t) {
+            var n = (function () {
+              try {
+                var e = JSON.parse(sessionStorage.getItem(o));
+                if (
+                  "object" == typeof e &&
+                  "number" == typeof e.timestamp &&
+                  new Date().valueOf() < e.timestamp + 604800 &&
+                  "object" == typeof e.supportTests
+                )
+                  return e.supportTests;
+              } catch (e) {}
+              return null;
+            })();
+            if (!n) {
+              if (
+                "undefined" != typeof Worker &&
+                "undefined" != typeof OffscreenCanvas &&
+                "undefined" != typeof URL &&
+                URL.createObjectURL &&
+                "undefined" != typeof Blob
+              )
+                try {
+                  var e =
+                      "postMessage(" +
+                      f.toString() +
+                      "(" +
+                      [JSON.stringify(s), u.toString(), p.toString()].join(
+                        ","
+                      ) +
+                      "));",
+                    r = new Blob([e], { type: "text/javascript" }),
+                    a = new Worker(URL.createObjectURL(r), {
+                      name: "wpTestEmojiSupports",
+                    });
+                  return void (a.onmessage = function (e) {
+                    c((n = e.data)), a.terminate(), t(n);
+                  });
+                } catch (e) {}
+              c((n = f(s, u, p)));
+            }
+            t(n);
+          })
+            .then(function (e) {
+              for (var t in e)
+                (n.supports[t] = e[t]),
+                  (n.supports.everything =
+                    n.supports.everything && n.supports[t]),
+                  "flag" !== t &&
+                    (n.supports.everythingExceptFlag =
+                      n.supports.everythingExceptFlag && n.supports[t]);
+              (n.supports.everythingExceptFlag =
+                n.supports.everythingExceptFlag && !n.supports.flag),
+                (n.DOMReady = !1),
+                (n.readyCallback = function () {
+                  n.DOMReady = !0;
+                });
+            })
+            .then(function () {
+              return e;
+            })
+            .then(function () {
+              var e;
+              n.supports.everything ||
+                (n.readyCallback(),
+                (e = n.source || {}).concatemoji
+                  ? t(e.concatemoji)
+                  : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)));
+            }));
+      })((window, document), window._wpemojiSettings);
+    </script>
+    <link
+      rel="stylesheet"
+      id="linearicons-css"
+      href="/wp-content/plugins/leedo_helper_plugin/includes/wpbakery/fonts/lnr/lnr.min.css?ver=6.6.2"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="iconmoon-css"
+      href="/wp-content/plugins/leedo_helper_plugin/includes/wpbakery/fonts/icnm/icnm.min.css?ver=6.6.2"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="etline-css"
+      href="/wp-content/plugins/leedo_helper_plugin/includes/wpbakery/fonts/etl/etl.min.css?ver=6.6.2"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elusive-css"
+      href="/wp-content/plugins/leedo_helper_plugin/includes/wpbakery/fonts/el/el.min.css?ver=6.6.2"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="iconsmind-css"
+      href="/wp-content/plugins/leedo_helper_plugin/includes/wpbakery/fonts/iconsmind/iconsmind.css?ver=6.6.2"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="icofont-css"
+      href="/wp-content/plugins/leedo_helper_plugin/includes/wpbakery/fonts/icofont/icofont.css?ver=6.6.2"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="leedo-css"
+      href="/wp-content/themes/leedo/assets/fonts/leedo/style.css?ver=6.6.2"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="font-awesome-5-css"
+      href="//use.fontawesome.com/releases/v5.8.1/css/all.css?ver=6.6.2"
+      type="text/css"
+      media="all"
+    />
+    <style id="wp-emoji-styles-inline-css" type="text/css">
+      img.wp-smiley,
+      img.emoji {
+        display: inline !important;
+        border: none !important;
+        box-shadow: none !important;
+        height: 1em !important;
+        width: 1em !important;
+        margin: 0 0.07em !important;
+        vertical-align: -0.1em !important;
+        background: none !important;
+        padding: 0 !important;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="wp-block-library-css"
+      href="/wp-includes/css/dist/block-library/style.min.css?ver=6.6.2"
+      type="text/css"
+      media="all"
+    />
+    <style id="wp-block-library-theme-inline-css" type="text/css">
+      .wp-block-audio :where(figcaption) {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+      .is-dark-theme .wp-block-audio :where(figcaption) {
+        color: #ffffffa6;
+      }
+      .wp-block-audio {
+        margin: 0 0 1em;
+      }
+      .wp-block-code {
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-family: Menlo, Consolas, monaco, monospace;
+        padding: 0.8em 1em;
+      }
+      .wp-block-embed :where(figcaption) {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+      .is-dark-theme .wp-block-embed :where(figcaption) {
+        color: #ffffffa6;
+      }
+      .wp-block-embed {
+        margin: 0 0 1em;
+      }
+      .blocks-gallery-caption {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+      .is-dark-theme .blocks-gallery-caption {
+        color: #ffffffa6;
+      }
+      :root :where(.wp-block-image figcaption) {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+      .is-dark-theme :root :where(.wp-block-image figcaption) {
+        color: #ffffffa6;
+      }
+      .wp-block-image {
+        margin: 0 0 1em;
+      }
+      .wp-block-pullquote {
+        border-bottom: 4px solid;
+        border-top: 4px solid;
+        color: currentColor;
+        margin-bottom: 1.75em;
+      }
+      .wp-block-pullquote cite,
+      .wp-block-pullquote footer,
+      .wp-block-pullquote__citation {
+        color: currentColor;
+        font-size: 0.8125em;
+        font-style: normal;
+        text-transform: uppercase;
+      }
+      .wp-block-quote {
+        border-left: 0.25em solid;
+        margin: 0 0 1.75em;
+        padding-left: 1em;
+      }
+      .wp-block-quote cite,
+      .wp-block-quote footer {
+        color: currentColor;
+        font-size: 0.8125em;
+        font-style: normal;
+        position: relative;
+      }
+      .wp-block-quote.has-text-align-right {
+        border-left: none;
+        border-right: 0.25em solid;
+        padding-left: 0;
+        padding-right: 1em;
+      }
+      .wp-block-quote.has-text-align-center {
+        border: none;
+        padding-left: 0;
+      }
+      .wp-block-quote.is-large,
+      .wp-block-quote.is-style-large,
+      .wp-block-quote.is-style-plain {
+        border: none;
+      }
+      .wp-block-search .wp-block-search__label {
+        font-weight: 700;
+      }
+      .wp-block-search__button {
+        border: 1px solid #ccc;
+        padding: 0.375em 0.625em;
+      }
+      :where(.wp-block-group.has-background) {
+        padding: 1.25em 2.375em;
+      }
+      .wp-block-separator.has-css-opacity {
+        opacity: 0.4;
+      }
+      .wp-block-separator {
+        border: none;
+        border-bottom: 2px solid;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .wp-block-separator.has-alpha-channel-opacity {
+        opacity: 1;
+      }
+      .wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+        width: 100px;
+      }
+      .wp-block-separator.has-background:not(.is-style-dots) {
+        border-bottom: none;
+        height: 1px;
+      }
+      .wp-block-separator.has-background:not(.is-style-wide):not(
+          .is-style-dots
+        ) {
+        height: 2px;
+      }
+      .wp-block-table {
+        margin: 0 0 1em;
+      }
+      .wp-block-table td,
+      .wp-block-table th {
+        word-break: normal;
+      }
+      .wp-block-table :where(figcaption) {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+      .is-dark-theme .wp-block-table :where(figcaption) {
+        color: #ffffffa6;
+      }
+      .wp-block-video :where(figcaption) {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+      .is-dark-theme .wp-block-video :where(figcaption) {
+        color: #ffffffa6;
+      }
+      .wp-block-video {
+        margin: 0 0 1em;
+      }
+      :root :where(.wp-block-template-part.has-background) {
+        margin-bottom: 0;
+        margin-top: 0;
+        padding: 1.25em 2.375em;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="awb-css"
+      href="/wp-content/plugins/advanced-backgrounds/assets/awb/awb.min.css?ver=1.12.4"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="nfd-wonder-blocks-utilities-css"
+      href="/wp-content/plugins/bluehost-wordpress-plugin/vendor/newfold-labs/wp-module-patterns/assets/build/utilities.css?ver=2.4.1"
+      type="text/css"
+      media="all"
+    />
+    <style id="classic-theme-styles-inline-css" type="text/css">
+      /*! This file is auto-generated */
+      .wp-block-button__link {
+        color: #fff;
+        background-color: #32373c;
+        border-radius: 9999px;
+        box-shadow: none;
+        text-decoration: none;
+        padding: calc(0.667em + 2px) calc(1.333em + 2px);
+        font-size: 1.125em;
+      }
+      .wp-block-file__button {
+        background: #32373c;
+        color: #fff;
+        text-decoration: none;
+      }
+    </style>
+    <style id="global-styles-inline-css" type="text/css">
+      :root {
+        --wp--preset--aspect-ratio--square: 1;
+        --wp--preset--aspect-ratio--4-3: 4/3;
+        --wp--preset--aspect-ratio--3-4: 3/4;
+        --wp--preset--aspect-ratio--3-2: 3/2;
+        --wp--preset--aspect-ratio--2-3: 2/3;
+        --wp--preset--aspect-ratio--16-9: 16/9;
+        --wp--preset--aspect-ratio--9-16: 9/16;
+        --wp--preset--color--black: #000000;
+        --wp--preset--color--cyan-bluish-gray: #abb8c3;
+        --wp--preset--color--white: #ffffff;
+        --wp--preset--color--pale-pink: #f78da7;
+        --wp--preset--color--vivid-red: #cf2e2e;
+        --wp--preset--color--luminous-vivid-orange: #ff6900;
+        --wp--preset--color--luminous-vivid-amber: #fcb900;
+        --wp--preset--color--light-green-cyan: #7bdcb5;
+        --wp--preset--color--vivid-green-cyan: #00d084;
+        --wp--preset--color--pale-cyan-blue: #8ed1fc;
+        --wp--preset--color--vivid-cyan-blue: #0693e3;
+        --wp--preset--color--vivid-purple: #9b51e0;
+        --wp--preset--color--first: #ee3364;
+        --wp--preset--color--second: #00bec5;
+        --wp--preset--color--third: #fdf4b4;
+        --wp--preset--color--fourth: #1f0e49;
+        --wp--preset--color--gray: #999999;
+        --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(
+          135deg,
+          rgba(6, 147, 227, 1) 0%,
+          rgb(155, 81, 224) 100%
+        );
+        --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(
+          135deg,
+          rgb(122, 220, 180) 0%,
+          rgb(0, 208, 130) 100%
+        );
+        --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(
+          135deg,
+          rgba(252, 185, 0, 1) 0%,
+          rgba(255, 105, 0, 1) 100%
+        );
+        --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(
+          135deg,
+          rgba(255, 105, 0, 1) 0%,
+          rgb(207, 46, 46) 100%
+        );
+        --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(
+          135deg,
+          rgb(238, 238, 238) 0%,
+          rgb(169, 184, 195) 100%
+        );
+        --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(
+          135deg,
+          rgb(74, 234, 220) 0%,
+          rgb(151, 120, 209) 20%,
+          rgb(207, 42, 186) 40%,
+          rgb(238, 44, 130) 60%,
+          rgb(251, 105, 98) 80%,
+          rgb(254, 248, 76) 100%
+        );
+        --wp--preset--gradient--blush-light-purple: linear-gradient(
+          135deg,
+          rgb(255, 206, 236) 0%,
+          rgb(152, 150, 240) 100%
+        );
+        --wp--preset--gradient--blush-bordeaux: linear-gradient(
+          135deg,
+          rgb(254, 205, 165) 0%,
+          rgb(254, 45, 45) 50%,
+          rgb(107, 0, 62) 100%
+        );
+        --wp--preset--gradient--luminous-dusk: linear-gradient(
+          135deg,
+          rgb(255, 203, 112) 0%,
+          rgb(199, 81, 192) 50%,
+          rgb(65, 88, 208) 100%
+        );
+        --wp--preset--gradient--pale-ocean: linear-gradient(
+          135deg,
+          rgb(255, 245, 203) 0%,
+          rgb(182, 227, 212) 50%,
+          rgb(51, 167, 181) 100%
+        );
+        --wp--preset--gradient--electric-grass: linear-gradient(
+          135deg,
+          rgb(202, 248, 128) 0%,
+          rgb(113, 206, 126) 100%
+        );
+        --wp--preset--gradient--midnight: linear-gradient(
+          135deg,
+          rgb(2, 3, 129) 0%,
+          rgb(40, 116, 252) 100%
+        );
+        --wp--preset--font-size--small: 14px;
+        --wp--preset--font-size--medium: 20px;
+        --wp--preset--font-size--large: 28px;
+        --wp--preset--font-size--x-large: 42px;
+        --wp--preset--font-size--normal: 18px;
+        --wp--preset--font-size--huge: 38px;
+        --wp--preset--font-family--inter: "Inter", sans-serif;
+        --wp--preset--font-family--cardo: Cardo;
+        --wp--preset--spacing--20: 0.44rem;
+        --wp--preset--spacing--30: 0.67rem;
+        --wp--preset--spacing--40: 1rem;
+        --wp--preset--spacing--50: 1.5rem;
+        --wp--preset--spacing--60: 2.25rem;
+        --wp--preset--spacing--70: 3.38rem;
+        --wp--preset--spacing--80: 5.06rem;
+        --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+        --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1),
+          6px 6px rgba(0, 0, 0, 1);
+        --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+      }
+      :where(.is-layout-flex) {
+        gap: 0.5em;
+      }
+      :where(.is-layout-grid) {
+        gap: 0.5em;
+      }
+      body .is-layout-flex {
+        display: flex;
+      }
+      .is-layout-flex {
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      .is-layout-flex > :is(*, div) {
+        margin: 0;
+      }
+      body .is-layout-grid {
+        display: grid;
+      }
+      .is-layout-grid > :is(*, div) {
+        margin: 0;
+      }
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+      :where(.wp-block-columns.is-layout-grid) {
+        gap: 2em;
+      }
+      :where(.wp-block-post-template.is-layout-flex) {
+        gap: 1.25em;
+      }
+      :where(.wp-block-post-template.is-layout-grid) {
+        gap: 1.25em;
+      }
+      .has-black-color {
+        color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-color {
+        color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-color {
+        color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-color {
+        color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-color {
+        color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-color {
+        color: var(--wp--preset--color--luminous-vivid-orange) !important;
+      }
+      .has-luminous-vivid-amber-color {
+        color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+      .has-light-green-cyan-color {
+        color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-color {
+        color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-color {
+        color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-color {
+        color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-color {
+        color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-black-background-color {
+        background-color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-background-color {
+        background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-background-color {
+        background-color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-background-color {
+        background-color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-background-color {
+        background-color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-amber-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-amber
+        ) !important;
+      }
+      .has-light-green-cyan-background-color {
+        background-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-background-color {
+        background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-background-color {
+        background-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-black-border-color {
+        border-color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-border-color {
+        border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-border-color {
+        border-color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-border-color {
+        border-color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-border-color {
+        border-color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-border-color {
+        border-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-amber-border-color {
+        border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+      .has-light-green-cyan-border-color {
+        border-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-border-color {
+        border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-border-color {
+        border-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+        background: var(
+          --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple
+        ) !important;
+      }
+      .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+        background: var(
+          --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan
+        ) !important;
+      }
+      .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-orange-to-vivid-red
+        ) !important;
+      }
+      .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+        background: var(
+          --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray
+        ) !important;
+      }
+      .has-cool-to-warm-spectrum-gradient-background {
+        background: var(
+          --wp--preset--gradient--cool-to-warm-spectrum
+        ) !important;
+      }
+      .has-blush-light-purple-gradient-background {
+        background: var(--wp--preset--gradient--blush-light-purple) !important;
+      }
+      .has-blush-bordeaux-gradient-background {
+        background: var(--wp--preset--gradient--blush-bordeaux) !important;
+      }
+      .has-luminous-dusk-gradient-background {
+        background: var(--wp--preset--gradient--luminous-dusk) !important;
+      }
+      .has-pale-ocean-gradient-background {
+        background: var(--wp--preset--gradient--pale-ocean) !important;
+      }
+      .has-electric-grass-gradient-background {
+        background: var(--wp--preset--gradient--electric-grass) !important;
+      }
+      .has-midnight-gradient-background {
+        background: var(--wp--preset--gradient--midnight) !important;
+      }
+      .has-small-font-size {
+        font-size: var(--wp--preset--font-size--small) !important;
+      }
+      .has-medium-font-size {
+        font-size: var(--wp--preset--font-size--medium) !important;
+      }
+      .has-large-font-size {
+        font-size: var(--wp--preset--font-size--large) !important;
+      }
+      .has-x-large-font-size {
+        font-size: var(--wp--preset--font-size--x-large) !important;
+      }
+      :where(.wp-block-post-template.is-layout-flex) {
+        gap: 1.25em;
+      }
+      :where(.wp-block-post-template.is-layout-grid) {
+        gap: 1.25em;
+      }
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+      :where(.wp-block-columns.is-layout-grid) {
+        gap: 2em;
+      }
+      :root :where(.wp-block-pullquote) {
+        font-size: 1.5em;
+        line-height: 1.6;
+      }
+    </style>
+    <style id="age-gate-custom-inline-css" type="text/css">
+      :root {
+        --ag-background-color: rgba(0, 0, 0, 0.1);
+        --ag-background-image-position: center center;
+        --ag-blur: 5px;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="age-gate-css"
+      href="/wp-content/plugins/age-gate/dist/main.css?ver=3.5.0"
+      type="text/css"
+      media="all"
+    />
+    <style id="age-gate-options-inline-css" type="text/css">
+      :root {
+        --ag-background-color: rgba(0, 0, 0, 0.1);
+        --ag-background-image-position: center center;
+        --ag-blur: 5px;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="agile-store-locator-init-css"
+      href="/wp-content/plugins/agile-store-locator/public/css/init.css?ver=4.6.37"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="contact-form-7-css"
+      href="/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.9.8"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="bodhi-svgs-attachment-css"
+      href="/wp-content/plugins/svg-support/css/svgs-attachment.css?ver=2.5.8"
+      type="text/css"
+      media="all"
+    />
+    <style id="woocommerce-inline-inline-css" type="text/css">
+      .woocommerce form .form-row .required {
+        visibility: visible;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="leedo-style-css"
+      href="/wp-content/themes/leedo/style.css?ver=6.6.2"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="leedo-child-style-css"
+      href="/wp-content/themes/leedo-child/style.css?ver=1.0.0"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="style-css"
+      href="/wp-content/themes/leedo-child/style.css?ver=6.6.2"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="bootstrap-css"
+      href="/wp-content/themes/leedo/assets/css/framework/bootstrap.min.css?ver=1.0.0"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="superfish-css"
+      href="/wp-content/themes/leedo/assets/css/plugins/superfish.css?ver=1.0.0"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="fancybox-css"
+      href="/wp-content/plugins/visual-portfolio/assets/vendor/fancybox/dist/jquery.fancybox.min.css?ver=3.5.7"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="swiper-css"
+      href="/wp-content/plugins/visual-portfolio/assets/vendor/swiper/swiper-bundle.min.css?ver=8.4.7"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="aos-css"
+      href="/wp-content/themes/leedo/assets/css/plugins/aos.css?ver=1.0.0"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="vlt-main-css-css"
+      href="/wp-content/themes/leedo/assets/css/vlt-main.min.css?ver=1.0.0"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="js_composer_front-css"
+      href="/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=7.9"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="bsf-Defaults-css"
+      href="/wp-content/uploads/smile_fonts/Defaults/Defaults.css?ver=3.19.9"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="ultimate-style-min-css"
+      href="/wp-content/plugins/Ultimate_VC_Addons/assets/min-css/ultimate.min.css?ver=3.19.9"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="ult-icons-css"
+      href="/wp-content/plugins/Ultimate_VC_Addons/assets/css/icons.css?ver=3.19.9"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="ultimate-vidcons-css"
+      href="/wp-content/plugins/Ultimate_VC_Addons/assets/fonts/vidcons.css?ver=3.19.9"
+      type="text/css"
+      media="all"
+    />
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/bluehost-wordpress-plugin/vendor/newfold-labs/wp-module-patterns/assets/build/utilities.js?ver=2.4.1"
+      id="nfd-wonder-blocks-utilities-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+      id="jquery-core-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+      id="jquery-migrate-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.9.3.3"
+      id="jquery-blockui-js"
+      data-wp-strategy="defer"
+    ></script>
+    <script type="text/javascript" id="wc-add-to-cart-js-extra">
+      var wc_add_to_cart_params = {
+        ajax_url: "\/dev\/wp-admin\/admin-ajax.php",
+        wc_ajax_url: "\/dev\/?wc-ajax=%%endpoint%%",
+        i18n_view_cart: "View cart",
+        cart_url: "https:\/\/grislyscosmic.com\/dev\/cart\/",
+        is_cart: "",
+        cart_redirect_after_add: "no",
+      };
+    </script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=9.3.3"
+      id="wc-add-to-cart-js"
+      data-wp-strategy="defer"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.9.3.3"
+      id="js-cookie-js"
+      defer="defer"
+      data-wp-strategy="defer"
+    ></script>
+    <script type="text/javascript" id="woocommerce-js-extra">
+      var woocommerce_params = {
+        ajax_url: "\/dev\/wp-admin\/admin-ajax.php",
+        wc_ajax_url: "\/dev\/?wc-ajax=%%endpoint%%",
+      };
+    </script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=9.3.3"
+      id="woocommerce-js"
+      defer="defer"
+      data-wp-strategy="defer"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart.js?ver=7.9"
+      id="vc_woocommerce-add-to-cart-js-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/modernizr-custom.min.js?ver=3.19.9"
+      id="ultimate-modernizr-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/jquery-ui.min.js?ver=3.19.9"
+      id="jquery_ui-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3"
+      id="jquery-ui-core-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.3"
+      id="jquery-ui-mouse-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.3"
+      id="jquery-ui-slider-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/jquery-ui-labeledslider.min.js?ver=3.19.9"
+      id="ult_range_tick-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/ultimate.min.js?ver=3.19.9"
+      id="ultimate-script-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/modal-all.min.js?ver=3.19.9"
+      id="ultimate-modal-all-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/jparallax.min.js?ver=3.19.9"
+      id="jquery.shake-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/vhparallax.min.js?ver=3.19.9"
+      id="jquery.vhparallax-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/ultimate_bg.min.js?ver=3.19.9"
+      id="ultimate-row-bg-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/mb-YTPlayer.min.js?ver=3.19.9"
+      id="jquery.ytplayer-js"
+    ></script>
+    <script></script>
+    <link rel="https://api.w.org/" href="/wp-json/" />
+    <link
+      rel="alternate"
+      title="JSON"
+      type="application/json"
+      href="/wp-json/wp/v2/pages/920"
+    />
+    <link
+      rel="EditURI"
+      type="application/rsd+xml"
+      title="RSD"
+      href="/xmlrpc.php?rsd"
+    />
+    <meta name="generator" content="WordPress 6.6.2" />
+    <meta name="generator" content="WooCommerce 9.3.3" />
+    <link rel="canonical" href="/" />
+    <link rel="shortlink" href="/" />
+    <link
+      rel="alternate"
+      title="oEmbed (JSON)"
+      type="application/json+oembed"
+      href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgrislyscosmic.com%2Fdev%2F"
+    />
+    <link
+      rel="alternate"
+      title="oEmbed (XML)"
+      type="text/xml+oembed"
+      href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgrislyscosmic.com%2Fdev%2F&#038;format=xml"
+    />
+    <script type="text/javascript">
+      var VPData = {
+        version: "3.3.10",
+        pro: false,
+        __: {
+          couldnt_retrieve_vp: "Couldn't retrieve Visual Portfolio ID.",
+          pswp_close: "Close (Esc)",
+          pswp_share: "Share",
+          pswp_fs: "Toggle fullscreen",
+          pswp_zoom: "Zoom in\/out",
+          pswp_prev: "Previous (arrow left)",
+          pswp_next: "Next (arrow right)",
+          pswp_share_fb: "Share on Facebook",
+          pswp_share_tw: "Tweet",
+          pswp_share_pin: "Pin it",
+          pswp_download: "Download",
+          fancybox_close: "Close",
+          fancybox_next: "Next",
+          fancybox_prev: "Previous",
+          fancybox_error:
+            "The requested content cannot be loaded. <br \/> Please try again later.",
+          fancybox_play_start: "Start slideshow",
+          fancybox_play_stop: "Pause slideshow",
+          fancybox_full_screen: "Full screen",
+          fancybox_thumbs: "Thumbnails",
+          fancybox_download: "Download",
+          fancybox_share: "Share",
+          fancybox_zoom: "Zoom",
+        },
+        settingsPopupGallery: {
+          enable_on_wordpress_images: false,
+          vendor: "fancybox",
+          deep_linking: false,
+          deep_linking_url_to_share_images: false,
+          show_arrows: true,
+          show_counter: true,
+          show_zoom_button: true,
+          show_fullscreen_button: true,
+          show_share_button: true,
+          show_close_button: true,
+          show_thumbs: true,
+          show_download_button: false,
+          show_slideshow: false,
+          click_to_zoom: true,
+          restore_focus: true,
+        },
+        screenSizes: [320, 576, 768, 992, 1200],
+      };
+    </script>
+    <noscript
+      ><style type="text/css">
+        .vp-portfolio__preloader-wrap {
+          display: none;
+        }
+        .vp-portfolio__filter-wrap,
+        .vp-portfolio__items-wrap,
+        .vp-portfolio__pagination-wrap,
+        .vp-portfolio__sort-wrap {
+          opacity: 1;
+          visibility: visible;
+        }
+        .vp-portfolio__item .vp-portfolio__item-img noscript + img,
+        .vp-portfolio__thumbnails-wrap {
+          display: none;
+        }
+      </style></noscript
+    >
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <meta
+      name="google-site-verification"
+      content="OsegY5rRYGSPL8HRji8QTG2Vvp-HQ0U40Iifxpo1jS4"
+    />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=AW-324396561"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "AW-324396561");
+    </script>
+    <script>
+      gtag("event", "page_view", {
+        send_to: "AW-324396561",
+        value: "replace with value",
+        items: [
+          {
+            id: "replace with value",
+            google_business_vertical: "retail",
+          },
+        ],
+      });
+    </script>
+    <script>
+      function gtag_report_conversion1(url) {
+        var callback = function () {
+          if (typeof url != "undefined") {
+            window.location = url;
+          }
+        };
+        gtag("event", "conversion", {
+          send_to: "AW-324396561/RnwyCIe1j4MDEJHM15oB",
+          event_callback: callback,
+        });
+        return false;
+      }
+
+      function gtag_report_conversion2(url) {
+        var callback = function () {
+          if (typeof url != "undefined") {
+            window.location = url;
+          }
+        };
+        gtag("event", "conversion", {
+          send_to: "AW-324396561/JR5fCOi2j4MDEJHM15oB",
+          transaction_id: "",
+          event_callback: callback,
+        });
+        return false;
+      }
+
+      jQuery(document).ready(function ($) {
+        $(".storefinder").on("click", function (e) {
+          gtag_report_conversion1();
+        });
+
+        $(".buyonline").on("click", function (e) {
+          gtag_report_conversion2();
+        });
+      });
+    </script>
+    <noscript
+      ><style>
+        .woocommerce-product-gallery {
+          opacity: 1 !important;
+        }
+      </style></noscript
+    >
+    <meta
+      name="generator"
+      content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."
+    />
+    <style type="text/css">
+      /* If html does not have either class, do not show lazy loaded images. */
+      html:not(.vp-lazyload-enabled):not(.js) .vp-lazyload {
+        display: none;
+      }
+    </style>
+    <script>
+      document.documentElement.classList.add("vp-lazyload-enabled");
+    </script>
+    <style id="wp-fonts-local" type="text/css">
+      @font-face {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 300 900;
+        font-display: fallback;
+        src: url("/wp-content/plugins/woocommerce/assets/fonts/Inter-VariableFont_slnt,wght.woff2")
+          format("woff2");
+        font-stretch: normal;
+      }
+      @font-face {
+        font-family: Cardo;
+        font-style: normal;
+        font-weight: 400;
+        font-display: fallback;
+        src: url("/wp-content/plugins/woocommerce/assets/fonts/cardo_normal_400.woff2")
+          format("woff2");
+      }
+    </style>
+    <link
+      rel="icon"
+      href="/wp-content/uploads/2021/07/Favicon_BlackYetiBeverage_V1.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      href="/wp-content/uploads/2021/07/Favicon_BlackYetiBeverage_V1.png"
+      sizes="192x192"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="/wp-content/uploads/2021/07/Favicon_BlackYetiBeverage_V1.png"
+    />
+    <meta
+      name="msapplication-TileImage"
+      content="/wp-content/uploads/2021/07/Favicon_BlackYetiBeverage_V1.png"
+    />
+    <style type="text/css" id="wp-custom-css">
+      /* topbar */
+      .vlt-header--animated,
+      .vlt-header--default,
+      .vlt-header--fullscreen,
+      .vlt-header--mobile,
+      .vlt-header--slide {
+        top: auto !important;
+      }
+      .topbar .mobile {
+        display: none;
+      }
+      @media only screen and (max-width: 787px) {
+        .topbar .mobile {
+          display: block;
+        }
+
+        .topbar {
+          padding: 10px !important;
+          font-size: 18px !important;
+          text-align: center !important;
+        }
+        .topbar .container {
+          display: block !important;
+        }
+        .topbar .desktop {
+          display: none !important;
+        }
+        .topbar a img {
+          display: none !important;
+        }
+        .topbar a {
+          display: inline-block !important;
+          padding: 0px !important;
+          width: 40% !important;
+          text-align: center !important;
+          line-height: 38px !important;
+        }
+      }
+
+      .topbar a img {
+        margin: 0px !important;
+      }
+      .topbar {
+        background-color: #000000;
+        padding: 0px 20px;
+        color: white;
+        font-family: Brice-Bold !important;
+        font-weight: 700;
+        font-size: 18px;
+      }
+
+      .topbar a {
+        display: block;
+        width: 100%;
+        padding: 5px 20px;
+        height: 40px;
+        margin: 5px;
+        opacity: 1;
+        font-family: "Bicyclette-Regular";
+        text-align: left;
+        line-height: 30px;
+        border: 1px solid #d8fffc;
+      }
+      .topbar .container {
+        display: grid;
+        grid-template-columns: 40% 30% 30%;
+        align-items: center;
+        max-width: 850px;
+        grid-column-gap: 20px;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+      }
+      /* topbar */
+
+      /* child menu */
+      #menu-item-4718 .sub-menu {
+        position: fixed;
+        width: 100%;
+        padding: 6px 0px;
+        background: black;
+        top: -5px;
+      }
+      .vlt-menu-burger--opened .line-three {
+        transform: translateY(-12px) !important;
+      }
+
+      /* age gate popup */
+      .age-gate-subheading {
+        padding: 40px 0px !important;
+      }
+      .age-gate-submit-yes,
+      .age-gate-submit-no {
+        background: url(/wp-content/uploads/2021/08/eyes.svg);
+        background-position: 100px 11px;
+        background-repeat: no-repeat;
+        box-shadow: none;
+        max-width: 160px;
+        width: 100%;
+        height: 45px;
+        border: 1px solid #0df3e3;
+        color: #0df3e3;
+        padding: 8px 55px 10px 0px;
+      }
+
+      .age-gate-submit-yes:hover,
+      .age-gate-submit-no:hover {
+        background-color: #f07d03 !important;
+        color: #fff;
+        border: 2px solid #ffb86d;
+      }
+      .age-gate-additional-information {
+        padding: 40px 20px !important;
+      }
+      @media screen and (max-width: 920px) {
+        .age-gate-submit-no {
+          margin-left: -2px !important;
+        }
+      }
+      /* header */
+      .vlt-menu-burger {
+        width: 40px !important;
+      }
+      .vlt-menu-burger .line span {
+        height: 5px !important;
+      }
+
+      /* custom page 2 */
+
+      .page-id-4688 .term_and_conditions .wpcf7-form-control {
+        padding-left: 0 !important;
+      }
+
+      .page-id-4688.term_and_conditions .wpcf7-form-control a {
+        color: #f07d03 !important;
+      }
+
+      .page-id-4688 .wpcf7-form {
+        width: 96%;
+        max-width: 470px;
+        margin: 10px auto;
+      }
+
+      .wpcf7 .wpcf7-response-output {
+        color: white !important;
+        padding: 0 !important;
+        border-top: transparent !important;
+        background-color: transparent !important;
+      }
+
+      #custom_button:hover {
+        background-color: #f07d03 !important;
+        color: #fff;
+        border: 2px solid #ffb86d;
+      }
+      .page-id-4620 #custom_button a:hover {
+        color: #fff !important;
+      }
+      .page-id-4688 #custom_button a {
+        background: none;
+        border: none;
+        padding: 0;
+        margin: 0;
+        color: #fff;
+        font-size: 16px;
+        text-transform: uppercase;
+      }
+
+      .page-id-4688 #custom_button {
+        background: url(/wp-content/uploads/2021/08/eyes.svg);
+        background-position: 140px 11px;
+        background-repeat: no-repeat;
+        box-shadow: none;
+        max-width: 200px;
+        width: 100%;
+        height: 40px;
+        border: 1px solid #0df3e3;
+        color: #0df3e3;
+        padding: 5px 55px 10px 18px;
+        background-color: #0cf3e3;
+      }
+
+      .page-id-4688 .wpcf7-form label {
+        color: #fff;
+      }
+      .page-id-4688 .wpcf7-form-control {
+        line-height: 13px;
+        padding: 8px;
+        background: transparent;
+        color: #fff;
+        display: block;
+        min-width: 300px;
+      }
+      .page-id-4688 .wpcf7-submit,
+      .age-gate-submit {
+        min-width: 160px !important;
+        margin: 12px auto;
+      }
+      .page-id-4688 .wpb_text_column.wpb_content_element {
+        margin-bottom: 15px;
+      }
+      .age-gate-submit {
+        /*background-color: #0DF3E3 !important;
+	color:#ffffff !important;*/
+        line-height: 14px;
+      }
+      .page-id-4688 input[type="submit"],
+      .age-gate-submit {
+        background: url(/wp-content/uploads/2021/08/eyes.svg);
+        background-position: 100px 11px;
+        background-repeat: no-repeat;
+        box-shadow: none;
+        max-width: 160px;
+        width: 100%;
+        height: 45px;
+        border: 1px solid #0df3e3;
+        color: #0df3e3;
+        padding: 11px 55px 10px 0px;
+      }
+      .page-id-4688 .wpcf7-submit:hover,
+      .age-gate-submit:hover {
+        background-color: #f07d03 !important;
+        color: #fff;
+        border: 2px solid #ffb86d;
+      }
+
+      /* custom page 2 */
+
+      /* custom page */
+
+      .page-id-4620 .term_and_conditions .wpcf7-form-control {
+        padding-left: 0 !important;
+      }
+
+      .page-id-4620 .term_and_conditions .wpcf7-form-control a {
+        color: #f07d03 !important;
+      }
+
+      .page-id-4620 .wpcf7-form {
+        width: 96%;
+        max-width: 470px;
+        margin: 10px auto;
+      }
+
+      .wpcf7 .wpcf7-response-output {
+        color: white !important;
+        padding: 0 !important;
+        border-top: transparent !important;
+        background-color: transparent !important;
+      }
+
+      #custom_button:hover {
+        background-color: #f07d03 !important;
+        color: #fff;
+        border: 2px solid #ffb86d;
+      }
+      .page-id-4620 #custom_button a:hover {
+        color: #fff !important;
+      }
+      .page-id-4620 #custom_button a {
+        background: none;
+        border: none;
+        padding: 0;
+        margin: 0;
+        color: #fff;
+        font-size: 16px;
+        text-transform: uppercase;
+      }
+
+      .page-id-4620 #custom_button {
+        background: url(/wp-content/uploads/2021/08/eyes.svg);
+        background-position: 140px 11px;
+        background-repeat: no-repeat;
+        box-shadow: none;
+        max-width: 200px;
+        width: 100%;
+        height: 40px;
+        border: 1px solid #0df3e3;
+        color: #0df3e3;
+        padding: 5px 55px 10px 18px;
+        background-color: #0cf3e3;
+      }
+
+      .page-id-4620 .wpcf7-form label {
+        color: #fff;
+      }
+      .page-id-4620 .wpcf7-form-control {
+        line-height: 13px;
+        padding: 8px;
+        background: transparent;
+        color: #fff;
+        display: block;
+        min-width: 300px;
+      }
+      .page-id-4620 .wpcf7-submit,
+      .age-gate-submit {
+        min-width: 160px !important;
+        margin: 12px auto;
+      }
+      .page-id-4620 .wpb_text_column.wpb_content_element {
+        margin-bottom: 15px;
+      }
+      .age-gate-submit {
+        /*background-color: #0DF3E3 !important;
+	color:#ffffff !important;*/
+        line-height: 14px;
+      }
+      .page-id-4620 input[type="submit"],
+      .age-gate-submit {
+        background: url(/wp-content/uploads/2021/08/eyes.svg);
+        background-position: 100px 11px;
+        background-repeat: no-repeat;
+        box-shadow: none;
+        max-width: 160px;
+        width: 100%;
+        height: 45px;
+        border: 1px solid #0df3e3;
+        color: #0df3e3;
+        padding: 11px 55px 10px 0px;
+      }
+      .page-id-4620 .wpcf7-submit:hover,
+      .age-gate-submit:hover {
+        background-color: #f07d03 !important;
+        color: #fff;
+        border: 2px solid #ffb86d;
+      }
+
+      /* custom page */
+      @font-face {
+        font-family: Brice-Bold;
+        src: url("/wp-content/themes/leedo/assets/fonts/leedo/fonts/Brice-Bold.otf");
+      }
+
+      @font-face {
+        font-family: Bicyclette-Black;
+        src: url("/wp-content/themes/leedo/assets/fonts/leedo/fonts/Bicyclette-Black.ttf");
+      }
+
+      @font-face {
+        font-family: Bicyclette-Bold;
+        src: url("/wp-content/themes/leedo/assets/fonts/leedo/fonts/Bicyclette-Bold.ttf");
+      }
+
+      @font-face {
+        font-family: Bicyclette-Italic;
+        src: url("/wp-content/themes/leedo/assets/fonts/leedo/fonts/Bicyclette-Italic.ttf");
+      }
+      @font-face {
+        font-family: Bicyclette-Light;
+        src: url("/wp-content/themes/leedo/assets/fonts/leedo/fonts/Bicyclette-Light.ttf");
+      }
+      @font-face {
+        font-family: Bicyclette-Regular;
+        src: url("/wp-content/themes/leedo/assets/fonts/leedo/fonts/Bicyclette-Regular.ttf");
+      }
+
+      @font-face {
+        font-family: Bicyclette-Thin;
+        src: url("/wp-content/themes/leedo/assets/fonts/leedo/fonts/Bicyclette-Thin.ttf");
+      }
+
+      @font-face {
+        font-family: Bicyclette-Ultra;
+        src: url("/wp-content/themes/leedo/assets/fonts/leedo/fonts/Bicyclette-Ultra.ttf");
+      }
+
+      h2,
+      h5 {
+        font-family: Brice-Bold !important;
+      }
+      h6,
+      h4,
+      label {
+        font-family: Bicyclette-Regular !important;
+      }
+      body,
+      .vlt-widget.widget_categories,
+      a {
+        font-family: Bicyclette-Regular !important;
+      }
+      .vlt-site-preloader .image img {
+        border-radius: 0px !important;
+      }
+
+      .vlt-projects-showcase__content h3 p {
+        font-size: 18px;
+        color: #ffff;
+        font-weight: normal;
+        text-transform: initial;
+        text-align: right;
+        font-family: Bicyclette-Regular;
+      }
+
+      .vlt-projects-showcase__content p {
+        max-width: 712px;
+        text-align: center;
+        margin: 15px auto;
+        letter-spacing: 0.1em;
+      }
+
+      p.about-us-desc {
+        max-width: 860px;
+      }
+
+      p.alcoholish-resources-desc {
+        color: #000;
+      }
+      .vlt-projects-showcase--style-5 .vlt-projects-showcase__image::after {
+        background-color: transparent !important;
+      }
+      .pink-link {
+        color: #fe03c7;
+      }
+      .privacy-policty-link {
+        color: #febb07;
+      }
+      .social-icons {
+        margin: 0 20px;
+      }
+
+      .b2b-market-link {
+        padding: 15px;
+        background: #f07e02;
+        margin: 30px 10px;
+        display: inline-block;
+        width: 190px;
+      }
+      .swiper-pagination-bullet {
+        display: none !important;
+      }
+      .swiper-pagination-bullet:before {
+        content: "\f063";
+        color: #fff;
+      }
+      #scroll-down-img {
+        cursor: pointer;
+        position: fixed;
+        bottom: -20px;
+        z-index: 109;
+        display: block;
+        left: 49.3%;
+        animation: blinker 1s linear infinite;
+      }
+
+      @keyframes blinker {
+        50% {
+          opacity: 0;
+        }
+      }
+
+      .location-wrapper {
+        display: flex;
+        max-height: 300px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        max-width: 630px;
+        white-space: pre;
+        margin: 0 auto;
+      }
+
+      .location-item {
+        width: 50%;
+        min-width: 280px;
+        float: left;
+        font-size: 16px;
+        text-align: left;
+        font-weight: normal;
+        padding: 15px;
+      }
+
+      .location-wrapper::-webkit-scrollbar {
+        width: 10px;
+      }
+      .location-wrapper::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+      }
+
+      .location-wrapper::-webkit-scrollbar-thumb {
+        background-color: #e608bb;
+        outline: 1px solid #fff;
+      }
+
+      .location-title {
+        font-weight: bold;
+      }
+
+      .hidden-locations {
+        display: none;
+      }
+
+      #slide-context1 .img2 {
+        top: 9% !important;
+      }
+      #slide-context2 .img2 {
+        top: 8% !important;
+      }
+      #slide-context1 .img3 {
+        bottom: 18%;
+        right: 50px;
+        left: auto !important;
+        top: auto !important;
+        text-align: right;
+      }
+
+      #slide-context1 .img1 {
+        opacity: 0.6;
+      }
+
+      #slide-context2 .img3 {
+        left: 24% !important;
+        top: 11% !important;
+        text-align: center;
+      }
+
+      #slide-context3 .img1 {
+        left: 6% !important;
+        top: 20px !important;
+        width: 90%;
+      }
+
+      #slide-context3 .img3 {
+        top: 25% !important;
+        left: 50px !important;
+      }
+
+      #slide-context3 .img4 {
+        top: auto !important;
+        bottom: 16%;
+        left: 50px !important;
+      }
+      #slide-context3 h2,
+      #slide-context3 p {
+        text-align: left;
+      }
+
+      #slide-context3 .img2 {
+        left: auto !important;
+        top: auto !important;
+        right: 10%;
+        bottom: -25px;
+        width: 35%;
+      }
+      #slide-context4 .img2 {
+        top: auto !important;
+        bottom: 50px;
+        text-align: center;
+        width: 85%;
+      }
+      #slide-context4 .img3 {
+        left: auto !important;
+        top: 100px !important;
+        right: 50px;
+        text-align: right;
+        width: 320px;
+      }
+      #slide-context4 .img3 a {
+        display: block;
+        width: 100%;
+        padding: 5px 20px;
+        height: 50px;
+        margin: 15px 5px;
+        opacity: 0.8;
+        font-family: "Bicyclette-Regular";
+        text-align: left;
+        line-height: 40px;
+      }
+
+      .storefinder {
+        background: #0df3e3 !important;
+        color: #fff;
+        border: 1px solid #d8fffc;
+      }
+      .buyonline {
+        background: #fc2452 !important;
+        color: #fff;
+        border: 1px solid #ff718f;
+      }
+      .merchandise {
+        background: #4fbdfc !important;
+        color: #fff;
+        border: 1px solid #a1ddff;
+      }
+      .loudspeaker {
+        background: #ff03c9 !important;
+        color: #fff;
+        border: 1px solid #ff9cea;
+      }
+
+      .storefinder-icon {
+        width: 20px;
+        float: right;
+        margin: 6px;
+      }
+      .buyonline-icon {
+        width: 14px;
+        margin: 6px 8px;
+        float: right;
+      }
+      .merchandise-icon {
+        width: 25px;
+        float: right;
+        margin: 8px 4px;
+      }
+      .slightings-icon {
+        width: 25px;
+        margin: 8px 4px;
+        float: right;
+      }
+
+      #slide-context5 .img1 {
+        left: -20% !important;
+        top: 15% !important;
+        width: 44%;
+      }
+
+      .post-920 .container {
+        width: 100% !important;
+        padding: 0px;
+        max-width: 100% !important;
+      }
+
+      .post-920 section {
+        /*left:auto !important;*/
+      }
+
+      #slide-context5 .img2 {
+        right: -10% !important;
+        left: auto !important;
+        width: 48%;
+        top: 10% !important;
+      }
+      #slide-context5 .img3 {
+        top: auto !important;
+        bottom: 50px;
+        left: 20% !important;
+        max-width: 550px;
+      }
+      #slide-context6 .img1 {
+        top: auto !important;
+        bottom: 0px;
+      }
+
+      #slide-context6 .img2 {
+        top: auto !important;
+        bottom: 0px;
+      }
+      #slide-context6 .img3 {
+        top: auto !important;
+        bottom: 0px;
+        width: 100%;
+        height: 160px;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0.7486344879748774) 24%,
+          rgba(0, 0, 0, 0) 100%
+        );
+      }
+      .txt-left {
+        width: 30%;
+
+        float: left;
+        padding-top: 65px;
+        text-align: left !important;
+        margin: 15px 10px !important;
+        font-size: 14px !important;
+        font-family: Bicyclette-Regular;
+      }
+      .txt-right {
+        float: right;
+        width: 66%;
+        text-align: right;
+        padding-top: 65px;
+        max-width: 100% !important;
+        font-size: 14px !important;
+        margin: 15px 10px !important;
+        font-family: Bicyclette-Regular;
+      }
+      .vlt-fullscreen-navigation,
+      .vlt-slide-navigation {
+        font-family: Bicyclette-Regular !important;
+      }
+      #slide-context1,
+      #slide-context2,
+      #slide-context3,
+      #slide-context4,
+      #slide-context5,
+      #slide-context6,
+      #slide-context8 {
+        pointer-events: auto !important;
+        /*display: contents;*/
+      }
+      .yeti-eyes-img {
+        width: 35px;
+        margin: 5px;
+      }
+      .consumer-market-link {
+        padding: 10px;
+        font-size: 18px;
+        font-weight: normal;
+        background: #0df3e3;
+        margin: 5px 5px;
+        /* display: inline-block; */
+        width: 200px;
+        text-transform: initial;
+        font-family: "Bicyclette-Regular";
+      }
+      #slide-context1 .consumer-market-link {
+        position: absolute;
+        right: 0px;
+      }
+      #slide-context2 .consumer-market-link {
+        position: relative;
+        top: -35px;
+      }
+
+      #slide-context2 p {
+        text-align: center;
+        max-width: 720px;
+      }
+      #slide-context3 .consumer-market-link {
+        position: absolute;
+        left: 0px;
+      }
+      #slide-context5 h2 {
+        text-align: left;
+      }
+      #slide-context5 p {
+        text-align: left;
+        color: #000000;
+        max-width: 620px;
+      }
+      .page-id-7 .wpcf7-form {
+        width: 96%;
+        max-width: 470px;
+        margin: 40px auto;
+      }
+      .page-id-7 .wpcf7-form label {
+        color: #fff;
+      }
+      .page-id-7 .wpcf7-form-control {
+        line-height: 13px;
+        padding: 8px;
+        background: transparent;
+        color: #fff;
+        display: block;
+        min-width: 300px;
+      }
+      .page-id-7 .wpcf7-submit,
+      .age-gate-submit {
+        min-width: 160px !important;
+        margin: 12px auto;
+      }
+      .page-id-7 .wpb_text_column.wpb_content_element {
+        margin-bottom: 15px;
+      }
+      .age-gate-submit {
+        /*background-color: #0DF3E3 !important;
+	color:#ffffff !important;*/
+        line-height: 14px;
+      }
+      .page-id-7 input[type="submit"],
+      .age-gate-submit {
+        background: url(/wp-content/uploads/2021/08/eyes.svg);
+        background-position: 100px 11px;
+        background-repeat: no-repeat;
+        box-shadow: none;
+        max-width: 160px;
+        width: 100%;
+        height: 45px;
+        border: 1px solid #0df3e3;
+        color: #0df3e3;
+        padding: 11px 55px 10px 0px;
+      }
+      .page-id-7 .wpcf7-submit:hover,
+      .age-gate-submit:hover {
+        background-color: #f07d03 !important;
+        color: #fff;
+        border: 2px solid #ffb86d;
+      }
+      #slide-context8 .img1 {
+        top: auto !important;
+        bottom: 0px;
+      }
+
+      #slide-context8 .img2 {
+        top: auto !important;
+        bottom: 0px;
+      }
+      #slide-context8 .img3 {
+        top: auto !important;
+        bottom: 0px;
+        width: 100%;
+        height: 160px;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0.7486344879748774) 24%,
+          rgba(0, 0, 0, 0) 100%
+        );
+      }
+      #slide-context8 .txt-right {
+        padding-top: 98px;
+        font-size: 22px !important;
+      }
+
+      #slide-context8 .txt-left {
+        padding-top: 98px;
+      }
+
+      .vlt-footer--style-2 {
+        padding: 0px;
+      }
+      .vlt-footer--style-2 .container {
+        width: 100% !important;
+        min-height: 500px;
+        display: contents;
+      }
+      .wearesocial div {
+        width: 280px;
+        margin: 60px auto 60px auto !important;
+      }
+
+      .wearesocial h4,
+      .wearesocial p {
+        display: inline-block;
+      }
+
+      .wearesocial h4 {
+        border-right: 1px solid #0df3e3;
+        padding: 4px 20px 4px 0px;
+        text-align: center;
+      }
+      .wearesocial .wp-image-3850 {
+        width: 50px;
+        margin: -32px 20px 0px 20px;
+      }
+      .wearesocial .wp-image-3849 {
+        width: 23px;
+        margin: -32px 20px 0px 10px;
+      }
+      .vlt-fullscreen-navigation {
+        overflow-y: hidden;
+        min-width: 450px;
+      }
+
+      .grislys-blog .vp-portfolio__item-img-wrap img {
+        object-fit: contain !important;
+      }
+      .grislys-blog .vlt-post-excerpt {
+        color: #fff;
+      }
+      .grislys-blog .vlt-post-meta {
+        display: none;
+      }
+      .grislys-blog .vlt-btn {
+        background: url(/wp-content/uploads/2021/08/eyes.svg) !important;
+        background-position: 130px 11px;
+        background-repeat: no-repeat;
+        box-shadow: none;
+        max-width: 200px;
+        min-width: 200px;
+        width: 100%;
+        height: 45px;
+        border: 1px solid;
+        color: #0df3e3;
+        padding: 11px 55px 10px 0px;
+      }
+      .grislys-blog .vlt-btn:hover,
+      .ctabtn:hover {
+        background-color: #f07d03;
+        color: #fff !important;
+        border: 2px solid #ffb86d;
+      }
+      .grislys-blog
+        .vp-portfolio__item-wrap:nth-child(even)
+        .vp-portfolio__item-img-wrap {
+        width: 50%;
+        float: right;
+        height: 469px;
+      }
+      .grislys-blog .vp-portfolio__item-wrap:nth-child(even) .vlt-post-content {
+        width: 50%;
+        float: left;
+        text-align: right;
+      }
+
+      .grislys-blog .vp-portfolio__item-wrap:nth-child(odd) .vlt-post-content {
+        width: 50%;
+        float: right;
+      }
+      .grislys-blog
+        .vp-portfolio__item-wrap:nth-child(odd)
+        .vp-portfolio__item-img-wrap {
+        width: 50%;
+        float: left;
+        height: 469px;
+      }
+      .grislys-blog h3 {
+        font-family: Brice-Bold !important;
+        color: #febb07;
+      }
+
+      .taseav-verify-form h2 span {
+        font-size: 13px;
+        line-height: 15px;
+        display: block;
+        margin: 20px;
+        font-family: Bicyclette-Regular !important;
+      }
+
+      p.txt-right a,
+      p.txt-left a {
+        font-size: 14px;
+        text-decoration: none;
+        border: 0px;
+        margin: 1px;
+        line-height: 14px;
+        display: inline-block;
+        position: static;
+        font-weight: normal;
+        font-family: Bicyclette-Regular !important;
+      }
+      p.txt-right a:hover {
+        color: #ee3364;
+      }
+
+      .vlt-footer--style-2 {
+        overflow: hidden;
+      }
+      .vlt-navbar--fixed.vlt-navbar--solid .vlt-navbar-logo {
+        filter: invert(1);
+      }
+      .vlt-navbar--fixed.vlt-navbar--solid .vlt-menu-burger {
+        filter: invert(1);
+      }
+      .vlt-footer-content a::before {
+        display: none;
+      }
+      .vlt-header.vlt-header--opaque .vlt-navbar--mobile {
+        background-color: transparent;
+        border: none;
+      }
+
+      .vlt-header.vlt-header--opaque .vlt-navbar--mobile {
+        background-color: transparent;
+        border: none;
+      }
+
+      .store-finder-row {
+        min-height: 600px;
+      }
+      .store-finder-row .nk-awb-inner .jarallax-img {
+        object-position: center -253px !important;
+        object-fit: contain !important;
+      }
+      .store-finder-h2 {
+        width: 80%;
+        max-width: 660px;
+        margin: 0 auto;
+      }
+      body
+        #asl-storelocator.container.storelocator-main.asl-p-cont.asl-template-0 {
+        max-width: 1240px !important;
+      }
+      #wpsl-search-wrap .wpsl-input label,
+      #wpsl-search-wrap div label {
+        color: #0df3e3 !important;
+      }
+
+      #wpsl-search-wrap .wpsl-input,
+      .wpsl-dropdown,
+      #wpsl-search-input {
+        background: #2c2c2c !important;
+        border: 1px solid #464646 !important;
+
+        color: #fff !important;
+      }
+      .wpsl-search {
+        background: #2c2c2c;
+      }
+      .vlt-navbar .vlt-navbar-logo img {
+        margin: 10px;
+      }
+
+      #slide-context4 .img3 a:hover {
+        color: #000;
+      }
+      .wpcf7 .wpcf7-not-valid-tip {
+        top: -18px !important;
+        right: 8px;
+      }
+      .wpsl-dropdown {
+        min-width: 120px;
+        height: 48px;
+        padding: 10px 26px;
+      }
+      #wpsl-search-wrap div label {
+        line-height: 45px;
+      }
+      .vlt-header--mobile.vlt-header--opaque {
+        position: absolute !important;
+      }
+      #vlt-mobile-menu-toggle {
+        /*filter: invert(1);*/
+      }
+      .wpcf7 .wpcf7-response-output {
+        min-width: 290px;
+      }
+
+      a:hover {
+        color: #f07d03 !important;
+      }
+      .vlt-btn--third:hover {
+        color: #ffffff !important;
+      }
+      .wp-image-3784:hover {
+        filter: invert(67%) sepia(226%) saturate(280%) hue-rotate(0deg)
+          brightness(87%) contrast(177%) !important;
+      }
+
+      .cinsta:hover,
+      .cface:hover {
+        filter: invert(51%) sepia(41%) saturate(6633%) hue-rotate(6deg)
+          brightness(89%) contrast(104%);
+      }
+      .vlt-btn--effect:hover::after,
+      .vlt-services-box__link:hover::after,
+      .vlt-simple-image .vlt-image-link:hover::after {
+        height: 0px;
+      }
+
+      .storefinder:hover,
+      .buyonline:hover,
+      .merchandise:hover,
+      .loudspeaker:hover {
+        background: #f07d03 !important;
+        color: #fff !important;
+        border: 2px solid #ffb86d;
+      }
+      .age-gate-wrapper {
+        /*opacity:0.9;*/
+      }
+      .age-gate-heading {
+        display: none;
+      }
+      .age-gate-input,
+      .age-gate-select {
+        max-width: 100%;
+        padding: 10px;
+      }
+      .age-gate-form {
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        border: 2px solid #0df3e3;
+      }
+      .wpcf7-spinner {
+        left: 43%;
+      }
+      .page-id-4029 #vlt-mobile-menu-toggle,
+      .page-id-920 #vlt-mobile-menu-toggle,
+      .page-id-7 #vlt-mobile-menu-toggle,
+      .page-id-327 #vlt-mobile-menu-toggle {
+        filter: invert(1);
+      }
+      .page-id-4029 .vlt-navbar--mobile .vlt-navbar-logo,
+      .page-id-920 .vlt-navbar--mobile .vlt-navbar-logo,
+      .page-id-7 .vlt-navbar--mobile .vlt-navbar-logo,
+      .page-id-327 .vlt-navbar--mobile .vlt-navbar-logo {
+        filter: invert(1);
+      }
+
+      #asl-storelocator.asl-p-cont .Filter_section {
+        background: #2c2c2c !important;
+        padding-top: 15px !important;
+      }
+      .search_filter p,
+      .asl-cntrl-lbl {
+        color: #0df3e3 !important;
+      }
+      .sl-search-group span.span-geo {
+        background: #f07d03 !important;
+      }
+      #asl-storelocator.asl-p-cont.asl-bg-3 .categories_filter b.caret {
+        color: #f07d03 !important;
+        width: 10px;
+      }
+      #asl-storelocator.asl-p-cont input[type="text"],
+      .asl-p-cont button.multiselect.btn-default {
+        background: #464646 !important;
+        width: 180px !important;
+        border: 1px solid #464646 !important;
+        color: #fff !important;
+      }
+      .addr-sec .p-title {
+        color: #febb07 !important;
+        font-size: 18px !important;
+      }
+      #asl-list {
+        background: #202020 !important;
+        border: 0px !important;
+      }
+      #asl-storelocator.asl-p-cont.asl-bg-3 .sl-item,
+      #asl-storelocator.asl-p-cont.asl-bg-3 .sl-item:nth-child(2n) {
+        background: #202020 !important;
+        border: 0px !important;
+      }
+      #asl-storelocator.asl-p-cont.asl-bg-3 .Num_of_store {
+        background: #202020 !important;
+      }
+      .asl-p-cont .asl_locator-panel::-webkit-scrollbar-thumb {
+        background: #ff03c9 !important;
+        border-radius: 50px !important;
+      }
+
+      #asl-storelocator.asl-p-cont.asl-bg-3 .panel-cont button {
+        background: url(/wp-content/uploads/2021/08/eyes.svg);
+        background-position: 98px 9px;
+        background-size: 35px;
+        background-repeat: no-repeat;
+        box-shadow: none;
+        background-color: transparent !important;
+        max-width: 150px !important;
+        font-size: 14px;
+        min-width: 135px;
+        width: 100%;
+        line-height: 12px;
+        height: 35px;
+        border: 1px solid;
+        color: #0df3e3;
+        padding: 11px 55px 10px 0px !important;
+      }
+      #asl-storelocator.asl-p-cont.storelocator-main .sl-item .thumb-a {
+        display: none !important;
+      }
+      #asl-storelocator.asl-p-cont.asl-template-0 .panel-inner .p-area,
+      #asl-storelocator.asl-p-cont.container.storelocator-main .sl-item a {
+        font-size: 14px !important;
+      }
+      #asl-storelocator.asl-p-cont.asl-bg-3 #style_2.infoWindow {
+        background: rgba(0, 0, 0, 0.8);
+      }
+      #asl-storelocator.asl-p-cont.asl-bg-3 #style_2.infoWindow h3 {
+        background: rgba(0, 0, 0, 0.8);
+        color: #febb07;
+      }
+      #asl-storelocator.asl-p-cont.asl-bg-3 #style_2.infoWindow a.action {
+        background: #202121 none repeat scroll 0 0;
+        color: #0df3e3;
+      }
+      #asl-storelocator.asl-p-cont.asl-bg-3 .sl-item.highlighted {
+        background: #585858 !important;
+      }
+
+      @media screen and (max-width: 920px) {
+        .swiper-slide {
+          overflow: hidden;
+        }
+        #slide-context1,
+        #slide-context2,
+        #slide-context3,
+        #slide-context4,
+        #slide-context5,
+        #slide-context6 {
+        }
+
+        video {
+          width: 1250px !important;
+          margin-top: -40px;
+          position: relative;
+          left: -20%;
+        }
+
+        #slide-context1 div,
+        #slide-context2 div,
+        #slide-context3 div,
+        #slide-context4 div,
+        #slide-context5 div,
+        #slide-context6 div {
+          /*top:auto !important;
+		right:0px !important;
+	  bottom: auto !important;
+		left:auto !important;
+		min-width:1000px;*/
+        }
+        #slide-context1 .img1 {
+          min-width: 1000px;
+          right: 8%;
+          left: auto !important;
+        }
+        #slide-context1 .img2 {
+          min-width: 1000px;
+          left: -20% !important;
+          filter: brightness(0.5);
+        }
+        #slide-context1 .img3,
+        #slide-context1 p {
+          text-align: center;
+        }
+        #slide-context1 .img3 {
+          bottom: 30%;
+          right: 8%;
+          padding: 15px;
+          left: auto !important;
+          top: auto !important;
+          text-align: center;
+        }
+        #slide-context1 .consumer-market-link {
+          position: static;
+        }
+
+        #slide-context2 .img1 {
+          min-width: 1000px;
+          top: auto !important;
+          bottom: -65px;
+          right: 8%;
+          left: auto !important;
+          filter: brightness(0.5);
+        }
+        #slide-context2 .img2 {
+          min-width: 1000px;
+          left: 0% !important;
+          filter: brightness(0.5);
+          top: auto !important;
+          bottom: -100px;
+        }
+        #slide-context2 .img3 {
+          left: 7% !important;
+          top: 7% !important;
+          padding: 15px;
+        }
+
+        #slide-context2 p {
+          text-align: center;
+        }
+        #slide-context2 .consumer-market-link {
+          position: static;
+        }
+        #slide-context3 .img1 {
+          min-width: 1000px;
+          right: 7%;
+          left: auto !important;
+          filter: brightness(0.5);
+        }
+        #slide-context3 .img2 {
+          min-width: 400px;
+          top: auto !important;
+          bottom: -92px;
+          left: 50% !important;
+          filter: brightness(0.5);
+        }
+        #slide-context3 .img3 {
+          left: 10% !important;
+          top: 7% !important;
+          text-align: center;
+          padding: 15px;
+        }
+        #slide-context3 .img4 {
+          left: 10% !important;
+          top: auto !important;
+          bottom: 4%;
+          text-align: center;
+          padding: 15px;
+        }
+        #slide-context3 p,
+        #slide-context3 h2 {
+          text-align: center;
+        }
+        #slide-context3 .consumer-market-link {
+          position: static;
+        }
+
+        #slide-context4 .img1 {
+          min-width: 1000px;
+          right: 8%;
+          left: auto !important;
+          filter: brightness(0.5);
+          top: auto !important;
+          bottom: -110px;
+        }
+        #slide-context4 .img2 {
+          min-width: 1000px;
+          left: auto !important;
+          right: 7% !important;
+          bottom: -100px !important;
+          filter: brightness(0.5);
+        }
+        #slide-context4 .img3 {
+          left: auto !important;
+          top: 0% !important;
+          text-align: center;
+        }
+
+        #slide-context4 p,
+        #slide-context4 h2 {
+          text-align: center;
+        }
+        #slide-context4 .consumer-market-link {
+          position: static;
+        }
+
+        #slide-context5 .img1 {
+          min-width: 84%;
+          right: -54%;
+          left: auto !important;
+          top: -65px !important;
+          filter: brightness(1);
+          -webkit-transform: scaleX(-1) !important;
+          transform: scaleX(-1) !important;
+        }
+        #slide-context5 .img2 {
+          min-width: 48%;
+          top: auto !important;
+          bottom: 1% !important;
+          left: 27% !important;
+          right: auto !important;
+          bottom: -26% !important;
+          filter: brightness(1);
+        }
+        #slide-context5 .img3 {
+          left: 0% !important;
+          top: auto !important;
+          bottom: 120px;
+          text-align: center;
+          width: 80%;
+          padding: 15px;
+        }
+
+        #slide-context5 p {
+          text-align: left;
+        }
+
+        #slide-context4 h2 {
+          text-align: center;
+        }
+
+        #slide-context6 .img1 {
+          min-width: 1000px;
+          right: 13%;
+          left: auto !important;
+          bottom: -115px !important;
+          filter: brightness(0.7);
+        }
+        #slide-context6 .img2 {
+          min-width: 1000px;
+          left: auto !important;
+          right: -10% !important;
+          bottom: -82px !important;
+          filter: brightness(0.7);
+        }
+        #slide-context6 .img3 {
+          top: auto !important;
+          bottom: -77px;
+          width: 100%;
+          height: 160px;
+          background: rgb(0, 0, 0);
+          background: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.7486344879748774) 24%,
+            rgba(0, 0, 0, 0) 100%
+          );
+        }
+        #slide-context8 .img1 {
+          min-width: 1000px;
+          right: 9%;
+          left: auto !important;
+          bottom: -90px !important;
+          filter: brightness(0.7);
+        }
+        #slide-context8 .img2 {
+          min-width: 1000px;
+          left: auto !important;
+          right: -16% !important;
+          bottom: -30px !important;
+          filter: brightness(0.7);
+        }
+        #slide-context8 .img3 {
+          top: auto !important;
+          bottom: 0px;
+          width: 100%;
+          height: 160px;
+          background: rgb(0, 0, 0);
+          background: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.7486344879748774) 24%,
+            rgba(0, 0, 0, 0) 100%
+          );
+        }
+        .txt-left {
+          width: 94%;
+          text-align: center;
+          max-width: 760px !important;
+          float: none;
+          text-align: center !important;
+          padding: 0px 10px 5px 10px;
+        }
+        .txt-right {
+          float: none;
+
+          width: 94%;
+          padding: 0px 20px 0px 20px;
+          text-align: center !important;
+          max-width: 760px !important;
+          font-size: 14px !important;
+        }
+        .swiper-slide:nth-child(6) .swiper-lazy {
+          top: -50px !important;
+          height: 110% !important;
+        }
+
+        .grislys-blog
+          .vp-portfolio__item-wrap:nth-child(even)
+          .vp-portfolio__item-img-wrap {
+          width: 120%;
+          float: left;
+          height: 369px;
+        }
+        .grislys-blog
+          .vp-portfolio__item-wrap:nth-child(even)
+          .vlt-post-content {
+          width: 100%;
+          float: left;
+          text-align: center;
+        }
+
+        .grislys-blog
+          .vp-portfolio__item-wrap:nth-child(odd)
+          .vlt-post-content {
+          width: 100%;
+          float: left;
+          text-align: center;
+        }
+        .grislys-blog
+          .vp-portfolio__item-wrap:nth-child(odd)
+          .vp-portfolio__item-img-wrap {
+          width: 120%;
+          float: left;
+          height: 369px;
+        }
+
+        .store-finder-row .nk-awb-inner .jarallax-img {
+          object-fit: contain !important;
+        }
+        .ult-spacer.spacer-614bb18224379 {
+          display: none !important;
+        }
+
+        .vlt-header--mobile.vlt-header--opaque {
+          position: absolute !important;
+        }
+        #vlt-mobile-menu-toggle {
+          /*filter: invert(1);*/
+        }
+        .page-id-7 .wpcf7-form {
+          margin: 10px auto;
+        }
+        .page-id-7 .wpcf7-form-control {
+          min-width: 300px;
+        }
+        .store-finder-row .nk-awb-inner .jarallax-img {
+          object-position: center 0% !important;
+        }
+        #slide-context8 .txt-right {
+          padding-top: 5px;
+        }
+        #slide-context8 .txt-left {
+          padding-top: 15px;
+        }
+        .wearesocial div {
+          width: 225px;
+        }
+        .wearesocial h4 {
+          font-size: 20px;
+          border-right: 1px solid #0df3e3;
+          padding: 4px 20px 4px 0px;
+          text-align: center;
+        }
+        .wearesocial .wp-image-3850 {
+          width: 35px;
+          margin: -32px 20px 0px 20px;
+        }
+        .wearesocial .wp-image-3849 {
+          width: 17px;
+          margin: -32px 20px 0px 10px;
+        }
+      }
+
+      @media screen and (max-width: 575px) {
+        #slide-context5 .img3 {
+          bottom: 40px;
+        }
+        #slide-context5 h2 {
+          color: #000;
+        }
+      }
+
+      @media screen and (max-width: 444px) {
+        #slide-context1,
+        #slide-context2,
+        #slide-context3,
+        #slide-context4,
+        #slide-context5,
+        #slide-context6 {
+        }
+
+        video {
+          width: 1250px !important;
+          margin-top: -40px;
+          position: relative;
+          left: -115%;
+        }
+
+        #slide-context1 div,
+        #slide-context2 div,
+        #slide-context3 div,
+        #slide-context4 div,
+        #slide-context5 div,
+        #slide-context6 div {
+          /*top:auto !important;
+		right:0px !important;
+	  bottom: auto !important;
+		left:auto !important;
+		min-width:1000px;*/
+        }
+        #slide-context1 .img1 {
+          min-width: 1000px;
+          right: 130%;
+          left: auto !important;
+        }
+        #slide-context1 .img2 {
+          min-width: 1000px;
+          left: -20% !important;
+          filter: brightness(0.5);
+        }
+        #slide-context1 .img3,
+        #slide-context1 p {
+          text-align: center;
+        }
+        #slide-context1 .img3 {
+          bottom: 12%;
+          right: 0px;
+          padding: 15px;
+          left: auto !important;
+          top: auto !important;
+          text-align: center;
+        }
+        #slide-context1 .consumer-market-link {
+          position: static;
+        }
+
+        #slide-context2 .img1 {
+          min-width: 1000px;
+          right: 118%;
+          left: auto !important;
+          filter: brightness(0.5);
+        }
+        #slide-context2 .img2 {
+          min-width: 1000px;
+          left: -100% !important;
+          filter: brightness(0.5);
+          top: auto !important;
+          bottom: -46px;
+        }
+        #slide-context2 .img3 {
+          left: 0% !important;
+          top: 7% !important;
+          padding: 15px;
+        }
+
+        #slide-context2 p {
+          text-align: center;
+        }
+        #slide-context2 .consumer-market-link {
+          position: static;
+        }
+        #slide-context3 .img1 {
+          min-width: 1000px;
+          right: 25%;
+          left: auto !important;
+          filter: brightness(0.5);
+        }
+        #slide-context3 .img2 {
+          min-width: 400px;
+          left: -20% !important;
+          filter: brightness(0.5);
+        }
+        #slide-context3 .img3 {
+          left: 0% !important;
+          top: 7% !important;
+          text-align: center;
+          padding: 15px;
+        }
+        #slide-context3 .img4 {
+          left: 0% !important;
+          top: auto !important;
+          bottom: 4%;
+          text-align: center;
+          padding: 15px;
+        }
+        #slide-context3 p,
+        #slide-context3 h2 {
+          text-align: center;
+        }
+        #slide-context3 .consumer-market-link {
+          position: static;
+        }
+
+        #slide-context4 .img1 {
+          min-width: 1000px;
+          right: 105%;
+          left: auto !important;
+          filter: brightness(0.5);
+          top: auto !important;
+          bottom: -50px;
+        }
+        #slide-context4 .img2 {
+          min-width: 1000px;
+          left: auto !important;
+          right: 1% !important;
+          bottom: -50px !important;
+          filter: brightness(0.5);
+        }
+        #slide-context4 .img3 {
+          left: auto !important;
+          top: 7% !important;
+          text-align: center;
+        }
+
+        #slide-context4 p,
+        #slide-context4 h2 {
+          text-align: center;
+        }
+        #slide-context4 .consumer-market-link {
+          position: static;
+        }
+
+        #slide-context5 .img1 {
+          min-width: 84%;
+          right: -54%;
+          left: auto !important;
+          top: -65px !important;
+          filter: brightness(1);
+          -webkit-transform: scaleX(-1) !important;
+          transform: scaleX(-1) !important;
+        }
+        #slide-context5 .img2 {
+          min-width: 48%;
+          top: auto !important;
+          bottom: 1% !important;
+          left: 27% !important;
+          right: auto !important;
+          bottom: -57% !important;
+          filter: brightness(1);
+        }
+        #slide-context5 .img3 {
+          left: 0% !important;
+          top: auto !important;
+          bottom: -60px;
+          text-align: center;
+          width: 80%;
+          padding: 15px;
+        }
+
+        #slide-context5 p {
+          text-align: left;
+        }
+
+        #slide-context4 h2 {
+          text-align: center;
+        }
+        #slide-context5 h2 {
+          color: #000;
+        }
+
+        #slide-context6 .img1 {
+          min-width: 1000px;
+          right: 130%;
+          left: auto !important;
+          bottom: -90px !important;
+          filter: brightness(0.7);
+        }
+        #slide-context6 .img2 {
+          min-width: 1000px;
+          left: auto !important;
+          right: -81% !important;
+          bottom: -85px !important;
+          filter: brightness(0.7);
+        }
+        #slide-context6 .img3 {
+          top: auto !important;
+          bottom: -100px;
+          width: 100%;
+          height: 160px;
+          background: rgb(0, 0, 0);
+          background: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.7486344879748774) 24%,
+            rgba(0, 0, 0, 0) 100%
+          );
+        }
+        #slide-context8 .img1 {
+          min-width: 1000px;
+          right: 130%;
+          left: auto !important;
+          bottom: -90px !important;
+          filter: brightness(0.7);
+        }
+        #slide-context8 .img2 {
+          min-width: 1000px;
+          left: auto !important;
+          right: -81% !important;
+          bottom: -85px !important;
+          filter: brightness(0.7);
+        }
+        #slide-context8 .img3 {
+          top: auto !important;
+          bottom: 0px;
+          width: 100%;
+          height: 200px;
+          background: rgb(0, 0, 0);
+          background: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.7486344879748774) 24%,
+            rgba(0, 0, 0, 0) 100%
+          );
+        }
+
+        .txt-left {
+          width: 94%;
+          text-align: center;
+          max-width: 760px !important;
+          float: none;
+          text-align: center !important;
+          padding: 0px 10px 5px 10px;
+        }
+        .txt-right {
+          float: none;
+
+          width: 94%;
+          padding: 0px 20px 0px 20px;
+          text-align: center !important;
+          max-width: 760px !important;
+          font-size: 14px !important;
+        }
+        .swiper-slide:nth-child(6) .swiper-lazy {
+          top: -50px !important;
+          height: 110% !important;
+        }
+
+        .grislys-blog
+          .vp-portfolio__item-wrap:nth-child(even)
+          .vp-portfolio__item-img-wrap {
+          width: 120%;
+          float: left;
+          height: 369px;
+        }
+        .grislys-blog
+          .vp-portfolio__item-wrap:nth-child(even)
+          .vlt-post-content {
+          width: 100%;
+          float: left;
+          text-align: center;
+        }
+
+        .grislys-blog
+          .vp-portfolio__item-wrap:nth-child(odd)
+          .vlt-post-content {
+          width: 100%;
+          float: left;
+          text-align: center;
+        }
+        .grislys-blog
+          .vp-portfolio__item-wrap:nth-child(odd)
+          .vp-portfolio__item-img-wrap {
+          width: 120%;
+          float: left;
+          height: 369px;
+        }
+
+        .store-finder-row .nk-awb-inner .jarallax-img {
+          object-fit: contain !important;
+        }
+        .ult-spacer.spacer-614bb18224379 {
+          display: none !important;
+        }
+
+        .vlt-header--mobile.vlt-header--opaque {
+          position: absolute !important;
+        }
+
+        .page-id-7 .wpcf7-form {
+          margin: 10px auto;
+        }
+        .page-id-7 .wpcf7-form-control {
+          min-width: 300px;
+        }
+        .store-finder-row .nk-awb-inner .jarallax-img {
+          object-position: center 0% !important;
+        }
+        #slide-context8 .txt-right {
+          padding-top: 5px;
+        }
+        #slide-context8 .txt-left {
+          padding-top: 15px;
+        }
+        .wearesocial div {
+          width: 220px;
+        }
+        .wearesocial h4 {
+          font-size: 20px;
+          border-right: 1px solid #0df3e3;
+          padding: 4px 20px 4px 0px;
+          text-align: center;
+        }
+        .wearesocial .wp-image-3850 {
+          width: 35px;
+          margin: -32px 20px 0px 20px;
+        }
+        .wearesocial .wp-image-3849 {
+          width: 17px;
+          margin: -32px 20px 0px 10px;
+        }
+      }
+
+      @media screen and (orientation: landscape) and (max-width: 812px) {
+        /* Your CSS Here*/
+        .swiper-slide {
+          overflow: hidden;
+        }
+        #slide-context1 .img1 {
+          min-width: 1000px;
+          right: 8%;
+          left: auto !important;
+        }
+        #slide-context1 .img2 {
+          min-width: 1000px;
+          left: -20% !important;
+          filter: brightness(0.5);
+        }
+        #slide-context1 .img3,
+        #slide-context1 p {
+          text-align: center;
+        }
+        #slide-context1 .img3 {
+          bottom: 30%;
+          right: 3%;
+          padding: 15px;
+          left: auto !important;
+          top: auto !important;
+          text-align: center;
+        }
+        #slide-context1 .consumer-market-link {
+          position: static;
+        }
+
+        #slide-context2 .img1 {
+          min-width: 1000px;
+          top: auto !important;
+          bottom: -65px;
+          right: 8%;
+          left: auto !important;
+          filter: brightness(0.5);
+        }
+        #slide-context2 .img2 {
+          min-width: 1000px;
+          left: 0% !important;
+          filter: brightness(0.5);
+          top: auto !important;
+          bottom: -100px;
+        }
+        #slide-context2 .img3 {
+          left: 7% !important;
+          top: 4% !important;
+          padding: 15px;
+        }
+
+        #slide-context2 p {
+          text-align: center;
+        }
+        #slide-context2 .consumer-market-link {
+          position: static;
+        }
+        #slide-context3 .img1 {
+          min-width: 1000px;
+          right: 7%;
+          left: auto !important;
+          filter: brightness(0.5);
+        }
+        #slide-context3 .img2 {
+          min-width: 400px;
+          top: auto !important;
+          bottom: -92px;
+          left: 50% !important;
+          filter: brightness(0.5);
+        }
+        #slide-context3 .img3 {
+          left: 10% !important;
+          top: 1% !important;
+          text-align: center;
+          padding: 15px;
+        }
+        #slide-context3 .img4 {
+          left: 10% !important;
+          top: auto !important;
+          bottom: 30%;
+          text-align: center;
+          padding: 15px;
+        }
+        #slide-context3 p,
+        #slide-context3 h2 {
+          text-align: center;
+        }
+        #slide-context3 .consumer-market-link {
+          position: static;
+        }
+
+        #slide-context4 .img1 {
+          min-width: 1000px;
+          right: 8%;
+          left: auto !important;
+          filter: brightness(0.5);
+          top: auto !important;
+          bottom: -110px;
+        }
+        #slide-context4 .img2 {
+          min-width: 1000px;
+          left: auto !important;
+          right: 7% !important;
+          bottom: -100px !important;
+          filter: brightness(0.5);
+        }
+        #slide-context4 .img3 {
+          left: auto !important;
+          top: 0% !important;
+          text-align: center;
+        }
+
+        #slide-context4 p,
+        #slide-context4 h2 {
+          text-align: center;
+        }
+        #slide-context4 .consumer-market-link {
+          position: static;
+        }
+
+        #slide-context5 .img1 {
+          min-width: 84%;
+          right: -54%;
+          left: auto !important;
+          top: -65px !important;
+          filter: brightness(1);
+          -webkit-transform: scaleX(-1) !important;
+          transform: scaleX(-1) !important;
+        }
+        #slide-context5 .img2 {
+          min-width: 48%;
+          top: auto !important;
+          bottom: 1% !important;
+          left: 27% !important;
+          right: auto !important;
+          bottom: -26% !important;
+          filter: brightness(1);
+        }
+        #slide-context5 .img3 {
+          left: 2% !important;
+          top: 13% !important;
+          bottom: auto;
+          text-align: center;
+          width: 80%;
+          padding: 15px;
+        }
+
+        #slide-context5 p {
+          text-align: left;
+        }
+
+        #slide-context4 h2 {
+          text-align: center;
+        }
+        #slide-context5 h2 {
+          color: #000000;
+        }
+
+        #slide-context6 .img1 {
+          min-width: 1000px;
+          right: 13%;
+          left: auto !important;
+          bottom: -115px !important;
+          filter: brightness(0.7);
+        }
+        #slide-context6 .img2 {
+          min-width: 1000px;
+          left: auto !important;
+          right: -10% !important;
+          bottom: -82px !important;
+          filter: brightness(0.7);
+        }
+        #slide-context6 .img3 {
+          top: auto !important;
+          bottom: 100px;
+          width: 100%;
+          height: 160px;
+          background: rgb(0, 0, 0);
+          background: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.7486344879748774) 24%,
+            rgba(0, 0, 0, 0) 100%
+          );
+        }
+        #slide-context8 .img1 {
+          min-width: 1000px;
+          right: 9%;
+          left: auto !important;
+          bottom: -90px !important;
+          filter: brightness(0.7);
+        }
+        #slide-context8 .img2 {
+          min-width: 1000px;
+          left: auto !important;
+          right: -16% !important;
+          bottom: -30px !important;
+          filter: brightness(0.7);
+        }
+        #slide-context8 .img3 {
+          top: auto !important;
+          bottom: 0px;
+          width: 100%;
+          height: 160px;
+          background: rgb(0, 0, 0);
+          background: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.7486344879748774) 24%,
+            rgba(0, 0, 0, 0) 100%
+          );
+        }
+      }
+      /*.top-img-layer
+{
+	position: absolute;
+    top: 12%;
+    left: 0;
+    z-index: 2;
+}
+.slide-context
+{
+	position: absolute;
+    z-index: 3;
+    right: 0;
+    bottom: 0;
+}*/
+    </style>
+    <style id="kirki-inline-styles">
+      body {
+        background: #ffffff;
+        background-color: #ffffff;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: scroll;
+        font-family: Muli;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 0.004em;
+        line-height: 1.65;
+        text-transform: none;
+        color: #5c5c5c;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+      :root {
+        --p1: #ee3364;
+        --p2: #00bec5;
+        --p3: #fdf4b4;
+        --p4: #1f0e49;
+        --pf: Montserrat;
+        --sf: Muli;
+      }
+      .vlt-site-preloader .image img {
+        height: 100px;
+      }
+      ::selection {
+        color: #ffffff !important;
+        background-color: #ee3364 !important;
+      }
+      ::-moz-selection {
+        color: #ffffff !important;
+        background-color: #ee3364 !important;
+      }
+      .vlt-header--default .vlt-navbar-logo img {
+        height: 100px;
+      }
+      .vlt-header--animated .vlt-navbar-logo img {
+        height: 100px;
+      }
+      .vlt-header--fullscreen .vlt-navbar-logo img,
+      .vlt-fullscreen-navigation-holder .vlt-navbar-logo img {
+        height: 100px;
+      }
+      .vlt-slide-navigation-holder {
+        background: #191919;
+        background-color: #191919;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+      .vlt-header--slide .vlt-navbar-logo img {
+        height: 100px;
+      }
+      .vlt-header--aside {
+        background: #ffffff;
+        background-color: #ffffff;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+      .vlt-header--mobile .vlt-navbar-logo img {
+        height: 70px;
+      }
+      .vlt-footer.vlt-footer--style-1 {
+        background: #191919;
+        background-color: #191919;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+      .vlt-footer.vlt-footer--style-2 {
+        background-image: url("/wp-content/uploads/2021/08/background-1-2.svg");
+        background-color: #191919;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+      .vlt-footer.vlt-footer--style-3 {
+        background: #191919;
+        background-color: #191919;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+      .vlt-footer.vlt-footer--style-4 {
+        background: #f0f0f0;
+        background-color: #f0f0f0;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+      .vlt-footer.vlt-footer--style-5 {
+        background: #191919;
+        background-color: #191919;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+      .vlt-footer.vlt-footer--style-6 {
+        background: #191919;
+        background-color: #191919;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+      .vlt-footer.vlt-footer--style-7 {
+        background: #191919;
+        background-color: #191919;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+      .vlt-footer.vlt-footer--widgetized {
+        background: #191919;
+        background-color: #191919;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+      h1,
+      .h1 {
+        font-family: Montserrat;
+        font-size: 58px;
+        font-weight: 700;
+        letter-spacing: 0.01em;
+        line-height: 1.22;
+        text-transform: none;
+        color: #0b0b0b;
+      }
+      h2,
+      .h2 {
+        font-family: Montserrat;
+        font-size: 32px;
+        font-weight: 700;
+        letter-spacing: 0.01em;
+        line-height: 1.25;
+        text-transform: none;
+        color: #febb07;
+      }
+      h3,
+      .h3 {
+        font-family: Montserrat;
+        font-size: 38px;
+        font-weight: 700;
+        letter-spacing: 0.01em;
+        line-height: 1.32;
+        text-transform: none;
+        color: #0b0b0b;
+      }
+      h4,
+      .h4 {
+        font-family: Montserrat;
+        font-size: 28px;
+        font-weight: 700;
+        letter-spacing: 0.01em;
+        line-height: 1.45;
+        text-transform: none;
+        color: #0b0b0b;
+      }
+      h5,
+      .h5 {
+        font-family: Montserrat;
+        font-size: 22px;
+        font-weight: 700;
+        letter-spacing: 0.01em;
+        line-height: 1.45;
+        text-transform: none;
+        color: #0b0b0b;
+      }
+      h6,
+      .h6 {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 0.01em;
+        line-height: 1.45;
+        text-transform: none;
+        color: #0df3e3;
+      }
+      blockquote {
+        font-family: Montserrat;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 1.4;
+        text-transform: none;
+      }
+      .vlt-btn,
+      .field-wrap button,
+      .field-wrap input[type="button"],
+      .field-wrap input[type="submit"] {
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.075em;
+        line-height: 1;
+        text-transform: uppercase;
+      }
+      input[type="text"],
+      input[type="date"],
+      input[type="email"],
+      input[type="password"],
+      input[type="tel"],
+      input[type="url"],
+      input[type="search"],
+      input[type="number"],
+      textarea,
+      select,
+      .select2 {
+        font-family: Muli;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.65;
+        text-transform: none;
+        color: #5c5c5c;
+      }
+      label {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.45;
+        text-transform: none;
+      }
+      .vlt-widget__title {
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 1.1;
+        text-transform: none;
+      }
+      .vlt-widget__title.vlt-widget__title--white {
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.075em;
+        line-height: 1.1;
+        text-transform: uppercase;
+        color: #ffffff;
+      }
+      @media (max-width: 767px) {
+        body {
+          font-size: 18px;
+          line-height: 1.65;
+        }
+        h1,
+        .h1 {
+          font-size: 58px;
+          line-height: 1.22;
+        }
+        h2,
+        .h2 {
+          font-size: 28px;
+          line-height: 1.25;
+        }
+        h3,
+        .h3 {
+          font-size: 38px;
+          line-height: 1.32;
+        }
+        h4,
+        .h4 {
+          font-size: 28px;
+          line-height: 1.45;
+        }
+        h5,
+        .h5 {
+          font-size: 22px;
+          line-height: 1.45;
+        }
+        h6,
+        .h6 {
+          font-size: 18px;
+          line-height: 1.45;
+        }
+        blockquote {
+          font-size: 32px;
+          line-height: 1.4;
+        }
+      }
+      @media (max-width: 575px) {
+        body {
+          font-size: 18px;
+          line-height: 1.65;
+        }
+        h1,
+        .h1 {
+          font-size: 58px;
+          line-height: 1.22;
+        }
+        h2,
+        .h2 {
+          font-size: 24px;
+          line-height: 1.25;
+        }
+        h3,
+        .h3 {
+          font-size: 38px;
+          line-height: 1.32;
+        }
+        h4,
+        .h4 {
+          font-size: 28px;
+          line-height: 1.45;
+        }
+        h5,
+        .h5 {
+          font-size: 22px;
+          line-height: 1.45;
+        }
+        h6,
+        .h6 {
+          font-size: 18px;
+          line-height: 1.45;
+        }
+        blockquote {
+          font-size: 32px;
+          line-height: 1.4;
+        }
+      } /* cyrillic-ext */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2)
+          format("woff2");
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF,
+          U+A640-A69F, U+FE2E-FE2F;
+      }
+      /* cyrillic */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2)
+          format("woff2");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+      /* vietnamese */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2)
+          format("woff2");
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+          U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309,
+          U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+      }
+      /* latin-ext */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2)
+          format("woff2");
+        unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F,
+          U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F,
+          U+A720-A7FF;
+      }
+      /* latin */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2)
+          format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC,
+          U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+      /* cyrillic-ext */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2)
+          format("woff2");
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF,
+          U+A640-A69F, U+FE2E-FE2F;
+      }
+      /* cyrillic */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2)
+          format("woff2");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+      /* vietnamese */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2)
+          format("woff2");
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+          U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309,
+          U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+      }
+      /* latin-ext */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2)
+          format("woff2");
+        unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F,
+          U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F,
+          U+A720-A7FF;
+      }
+      /* latin */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2)
+          format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC,
+          U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+      /* cyrillic-ext */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2)
+          format("woff2");
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF,
+          U+A640-A69F, U+FE2E-FE2F;
+      }
+      /* cyrillic */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2)
+          format("woff2");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+      /* vietnamese */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2)
+          format("woff2");
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+          U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309,
+          U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+      }
+      /* latin-ext */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2)
+          format("woff2");
+        unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F,
+          U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F,
+          U+A720-A7FF;
+      }
+      /* latin */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2)
+          format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC,
+          U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      } /* cyrillic-ext */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2)
+          format("woff2");
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF,
+          U+A640-A69F, U+FE2E-FE2F;
+      }
+      /* cyrillic */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2)
+          format("woff2");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+      /* vietnamese */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2)
+          format("woff2");
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+          U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309,
+          U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+      }
+      /* latin-ext */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2)
+          format("woff2");
+        unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F,
+          U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F,
+          U+A720-A7FF;
+      }
+      /* latin */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2)
+          format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC,
+          U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+      /* cyrillic-ext */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2)
+          format("woff2");
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF,
+          U+A640-A69F, U+FE2E-FE2F;
+      }
+      /* cyrillic */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2)
+          format("woff2");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+      /* vietnamese */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2)
+          format("woff2");
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+          U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309,
+          U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+      }
+      /* latin-ext */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2)
+          format("woff2");
+        unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F,
+          U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F,
+          U+A720-A7FF;
+      }
+      /* latin */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2)
+          format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC,
+          U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+      /* cyrillic-ext */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2)
+          format("woff2");
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF,
+          U+A640-A69F, U+FE2E-FE2F;
+      }
+      /* cyrillic */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2)
+          format("woff2");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+      /* vietnamese */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2)
+          format("woff2");
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+          U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309,
+          U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+      }
+      /* latin-ext */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2)
+          format("woff2");
+        unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F,
+          U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F,
+          U+A720-A7FF;
+      }
+      /* latin */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2)
+          format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC,
+          U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      } /* cyrillic-ext */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2)
+          format("woff2");
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF,
+          U+A640-A69F, U+FE2E-FE2F;
+      }
+      /* cyrillic */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2)
+          format("woff2");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+      /* vietnamese */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2)
+          format("woff2");
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+          U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309,
+          U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+      }
+      /* latin-ext */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2)
+          format("woff2");
+        unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F,
+          U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F,
+          U+A720-A7FF;
+      }
+      /* latin */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2)
+          format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC,
+          U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+      /* cyrillic-ext */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2)
+          format("woff2");
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF,
+          U+A640-A69F, U+FE2E-FE2F;
+      }
+      /* cyrillic */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2)
+          format("woff2");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+      /* vietnamese */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2)
+          format("woff2");
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+          U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309,
+          U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+      }
+      /* latin-ext */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2)
+          format("woff2");
+        unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F,
+          U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F,
+          U+A720-A7FF;
+      }
+      /* latin */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2)
+          format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC,
+          U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+      /* cyrillic-ext */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2)
+          format("woff2");
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF,
+          U+A640-A69F, U+FE2E-FE2F;
+      }
+      /* cyrillic */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2)
+          format("woff2");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+      /* vietnamese */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2)
+          format("woff2");
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+          U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309,
+          U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+      }
+      /* latin-ext */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2)
+          format("woff2");
+        unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F,
+          U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F,
+          U+A720-A7FF;
+      }
+      /* latin */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2)
+          format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC,
+          U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+    </style>
+    <noscript
+      ><style>
+        .wpb_animate_when_almost_visible {
+          opacity: 1;
+        }
+      </style></noscript
+    >
+  </head>
+  <body
+    class="home page-template page-template-template-custom-page page-template-template-custom-page-php page page-id-920 wp-embed-responsive theme-leedo woocommerce-no-js no-mobile wpb-js-composer js-comp-ver-7.9 vc_responsive"
+  >
+    <div class="vlt-site-preloader">
+      <div class="image">
+        <img
+          src="/wp-content/uploads/2021/09/logo-1-1.svg"
+          alt="GrislysCosmic"
+        />
+      </div>
+    </div>
+    <div class="vlt-site-wrapper">
+      <div class="vlt-site-wrapper__inner">
+        <div class="d-none d-lg-block">
+          <header class="vlt-header vlt-header--fullscreen">
+            <div
+              class="vlt-navbar vlt-navbar--main vlt-navbar--transparent-always vlt-navbar--white-text-on-top"
+            >
+              <div class="container">
+                <div class="vlt-navbar-inner">
+                  <div class="vlt-navbar-inner--left">
+                    <a href="/" class="vlt-navbar-logo">
+                      <img
+                        src="/wp-content/uploads/2021/09/logo-1-1.svg"
+                        alt="GrislysCosmic"
+                        class="black"
+                      />
+                      <img
+                        src="/wp-content/uploads/2021/09/logo.png"
+                        alt="GrislysCosmic"
+                        class="white"
+                      />
+                    </a>
+                  </div>
+                  <div class="vlt-navbar-inner--right">
+                    <div class="d-flex align-items-center">
+                      <a
+                        href="#"
+                        id="vlt-fullscreen-menu-open"
+                        class="vlt-menu-burger"
+                      >
+                        <span class="line line-one"><span></span></span>
+                        <span class="line line-two"><span></span></span>
+                        <span class="line line-three"><span></span></span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </header>
+          <div class="vlt-fullscreen-navigation-holder">
+            <div class="vlt-navbar vlt-navbar--white-text-on-top">
+              <div class="container">
+                <div class="vlt-navbar-inner">
+                  <div class="vlt-navbar-inner--left">
+                    <a href="/" class="vlt-navbar-logo">
+                      <img
+                        src="/wp-content/uploads/2021/09/logo-1-1.svg"
+                        alt="GrislysCosmic"
+                        class="black"
+                      />
+                      <img
+                        src="/wp-content/uploads/2021/09/logo.png"
+                        alt="GrislysCosmic"
+                        class="white"
+                      />
+                    </a>
+                  </div>
+                  <div class="vlt-navbar-inner--right">
+                    <a
+                      href="#"
+                      id="vlt-fullscreen-menu-close"
+                      class="vlt-menu-burger vlt-menu-burger--opened"
+                    >
+                      <span class="line line-one"><span></span></span>
+                      <span class="line line-two"><span></span></span>
+                      <span class="line line-three"><span></span></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <nav class="vlt-fullscreen-navigation">
+              <ul id="menu-main-menue" class="sf-menu">
+                <li
+                  id="menu-item-3398"
+                  class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3398"
+                >
+                  <a href="/#welcome" aria-current="page"
+                    ><span>Welcome</span></a
+                  >
+                </li>
+                <li
+                  id="menu-item-3399"
+                  class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3399"
+                >
+                  <a href="/#product-information" aria-current="page"
+                    ><span>Product Information</span></a
+                  >
+                </li>
+                <li
+                  id="menu-item-4718"
+                  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4718"
+                >
+                  <a href="https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x440c9ef2788c03abc02b7d679b28bc6f3159298a&chain=mainnet"><span>Buy $GRISLY</span></a>
+                  <!-- <ul class="sub-menu">
+                    <li
+                      id="menu-item-4040"
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4040"
+                    >
+                      <a href="/store-finder/"><span>Store finder</span></a>
+                    </li>
+                    <li
+                      id="menu-item-4719"
+                      class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4719"
+                    >
+                      <a href="https://shop.grislyscosmic.com/products/black"
+                        ><span>Buy Online</span></a
+                      >
+                    </li>
+                  </ul> -->
+                </li>
+                <li
+                  id="menu-item-3411"
+                  class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3411"
+                >
+                  <a href="/#about-us" aria-current="page"
+                    ><span>About Us</span></a
+                  >
+                </li>
+                <li
+                  id="menu-item-3400"
+                  class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3400"
+                >
+                  <a href="/#grisly-lore" aria-current="page"
+                    ><span>Grisly lore</span></a
+                  >
+                </li>
+                <li
+                  id="menu-item-3413"
+                  class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3413"
+                >
+                  <a href="/#find-us" aria-current="page"
+                    ><span>Find Us</span></a
+                  >
+                </li>
+                <li
+                  id="menu-item-3414"
+                  class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3414"
+                >
+                  <a href="/#alcoholism-resources" aria-current="page"
+                    ><span>Alcoholism Resources</span></a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="d-lg-none">
+          <header class="vlt-header vlt-header--opaque vlt-header--mobile">
+            <div class="vlt-navbar vlt-navbar--mobile">
+              <div class="container">
+                <div class="vlt-navbar-inner no-gutters">
+                  <div class="col text-left">
+                    <a href="/" class="vlt-navbar-logo">
+                      <img
+                        src="/wp-content/uploads/2021/09/logo-1-1.svg"
+                        alt="GrislysCosmic"
+                      />
+                    </a>
+                  </div>
+                  <div class="col text-center"></div>
+                  <div class="col text-right">
+                    <a
+                      href="#"
+                      id="vlt-mobile-menu-toggle"
+                      class="vlt-menu-burger"
+                    >
+                      <span class="line line-one"><span></span></span>
+                      <span class="line line-two"><span></span></span>
+                      <span class="line line-three"><span></span></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <nav class="vlt-mobile-navigation">
+                <div class="container">
+                  <ul id="menu-main-menue-1" class="sf-menu">
+                    <li
+                      class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3398"
+                    >
+                      <a href="/#welcome" aria-current="page"
+                        ><span>Welcome</span></a
+                      >
+                    </li>
+                    <li
+                      class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3399"
+                    >
+                      <a href="/#product-information" aria-current="page"
+                        ><span>Product Information</span></a
+                      >
+                    </li>
+                    <li
+                      class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4718"
+                    >
+                      <a href="https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x440c9ef2788c03abc02b7d679b28bc6f3159298a&chain=mainnet"><span>Buy $GRISLY</span></a>
+                      <!-- <ul class="sub-menu">
+                        <li
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4040"
+                        >
+                          <a href="/store-finder/"><span>Store finder</span></a>
+                        </li>
+                        <li
+                          class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4719"
+                        >
+                          <a
+                            href="https://shop.grislyscosmic.com/products/black"
+                            ><span>Buy Online</span></a
+                          >
+                        </li> -->
+                      </ul>
+                    </li>
+                    <li
+                      class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3411"
+                    >
+                      <a href="/#about-us" aria-current="page"
+                        ><span>About Us</span></a
+                      >
+                    </li>
+                    <li
+                      class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3400"
+                    >
+                      <a href="/#grisly-lore" aria-current="page"
+                        ><span>Grisly lore</span></a
+                      >
+                    </li>
+                    <li
+                      class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3413"
+                    >
+                      <a href="/#find-us" aria-current="page"
+                        ><span>Find Us</span></a
+                      >
+                    </li>
+                    <li
+                      class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3414"
+                    >
+                      <a href="/#alcoholism-resources" aria-current="page"
+                        ><span>Alcoholism Resources</span></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </header>
+        </div>
+        <main class="vlt-main">
+          <article
+            class="vlt-page vlt-page--custom post-920 page type-page status-publish hentry"
+          >
+            <div class="container">
+              <div class="wpb-content-wrapper">
+                <section
+                  data-vc-full-width="true"
+                  data-vc-full-width-init="false"
+                  data-vc-stretch-content="true"
+                  class="vc_section"
+                >
+                  <div
+                    data-vc-full-width="true"
+                    data-vc-full-width-init="false"
+                    data-vc-stretch-content="true"
+                    class="vc_row wpb_row vc_row-fluid vc_row-no-padding vlt-overflow-none"
+                  >
+                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                      <div class="vc_column-inner">
+                        <div class="wpb_wrapper">
+                          <div
+                            class="vlthemes_custom_66ffdd7501268 vlt-projects-showcase vlt-projects-showcase--style-5"
+                          >
+                            <div class="swiper-container">
+                              <div class="swiper-wrapper">
+                                <div class="vlt-projects-showcase__item">
+                                  <div class="container">
+                                    <div
+                                      class="row d-flex align-items-center no-gutters"
+                                    >
+                                      <div class="col-md-12">
+                                        <div
+                                          class="vlt-projects-showcase__content"
+                                        >
+                                          <div
+                                            data-swiper-parallax="-150"
+                                            data-swiper-parallax-scale="0.9"
+                                            data-swiper-parallax-duration="1000"
+                                          >
+                                            <h3>
+                                              <video
+                                                autoplay="autoplay"
+                                                class="bgvideo"
+                                                loop="loop"
+                                                muted="true"
+                                                playsinline=""
+                                                preload="auto"
+                                                src="/wp-content/uploads/2021/10/Section-1-Final-HD-1080p-.mp4"
+                                                style="
+                                                  width: 100%;
+                                                  margin-top: -40px;
+                                                "
+                                              ></video>
+                                            </h3>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="vlt-projects-showcase__image">
+                                    <img
+                                      data-src="/wp-content/uploads/2021/08/stars-bg.jpg"
+                                      class="swiper-lazy"
+                                    />
+                                    <div class="swiper-lazy-preloader"></div>
+                                  </div>
+                                </div>
+                                <div class="vlt-projects-showcase__item">
+                                  <div class="container">
+                                    <div
+                                      class="row d-flex align-items-center no-gutters"
+                                    >
+                                      <div class="col-md-12">
+                                        <div
+                                          class="vlt-projects-showcase__content"
+                                        >
+                                          <div
+                                            data-swiper-parallax="-150"
+                                            data-swiper-parallax-scale="0.9"
+                                            data-swiper-parallax-duration="1000"
+                                          >
+                                            <h3>
+                                              <div id="slide-context1">
+                                                <div
+                                                  class="img1"
+                                                  data-depth="0.30"
+                                                >
+                                                  <img
+                                                    decoding="async"
+                                                    class="middle-img-layer"
+                                                    src="/wp-content/uploads/2021/08/middle-1.svg"
+                                                  />
+                                                </div>
+                                                <div
+                                                  class="img2"
+                                                  data-depth="0.60"
+                                                >
+                                                  <img
+                                                    decoding="async"
+                                                    class="top-img-layer"
+                                                    src="/wp-content/uploads/2021/10/foreground.png"
+                                                  />
+                                                </div>
+                                                <div
+                                                  class="img3"
+                                                  data-depth="0.10"
+                                                >
+                                                  <h2>GRISLY'S COSMIC BLACK</h2>
+                                                  <h6>
+                                                    AGED BOURBON - GOURMET COLA
+                                                    - NO SUGAR ADDED
+                                                  </h6>
+                                                  <p>
+                                                    From the outer reaches of
+                                                    deep space to an aged
+                                                    bourbon &amp; craft cola
+                                                    shaped place in your heart,
+                                                    Grisly's Cosmic is a
+                                                    delicious, elevated take on
+                                                    the Galaxy's best known
+                                                    cocktail. Tasting notes of
+                                                    nutmeg, cinnamon, toasted
+                                                    marshmallow, and a little
+                                                    bit of heat.
+                                                  </p>
+                                                  <a
+                                                    href="https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x440c9ef2788c03abc02b7d679b28bc6f3159298a&chain=mainnet"
+                                                    class="ctabtn consumer-market-link"
+													style="display: flex!important; justify-content: center;"
+                                                  >
+                                                    Buy Now
+                                                    <img
+                                                      decoding="async"
+                                                      class="yeti-eyes-img"
+                                                      src="/wp-content/uploads/2021/08/eyes.svg"
+                                                  /></a>
+                                                </div>
+                                              </div>
+                                            </h3>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="vlt-projects-showcase__image">
+                                    <img
+                                      data-src="/wp-content/uploads/2021/08/background-1.svg"
+                                      class="swiper-lazy"
+                                    />
+                                    <div class="swiper-lazy-preloader"></div>
+                                  </div>
+                                </div>
+                                <div class="vlt-projects-showcase__item">
+                                  <div class="container">
+                                    <div
+                                      class="row d-flex align-items-center no-gutters"
+                                    >
+                                      <div class="col-md-12">
+                                        <div
+                                          class="vlt-projects-showcase__content"
+                                        >
+                                          <div
+                                            data-swiper-parallax="-150"
+                                            data-swiper-parallax-scale="0.9"
+                                            data-swiper-parallax-duration="1000"
+                                          >
+                                            <h3>
+                                              <div id="slide-context2">
+                                                <div
+                                                  class="img1"
+                                                  data-depth="0.30"
+                                                >
+                                                  <img
+                                                    decoding="async"
+                                                    class="middle-img-layer"
+                                                    src="/wp-content/uploads/2021/10/middle.png"
+                                                  />
+                                                </div>
+                                                <div
+                                                  class="img2"
+                                                  data-depth="0.60"
+                                                >
+                                                  <img
+                                                    decoding="async"
+                                                    class="top-img-layer"
+                                                    src="/wp-content/uploads/2021/10/foreground2.png"
+                                                  />
+                                                </div>
+                                                <div
+                                                  class="img3"
+                                                  data-depth="0.10"
+                                                >
+                                                  <h2>ABOUT US</h2>
+                                                  <p>
+                                                    Grisly’s Cosmic Black is
+                                                    here to bring some
+                                                    much-needed joy and
+                                                    transcendent fun to our
+                                                    world. This delicious
+                                                    cocktail was imagineered
+                                                    during the 2020 pandemic
+                                                    lockdown with the purposes
+                                                    of sharing our love of craft
+                                                    cola, high-quality bourbon,
+                                                    and vibrant rock poster art.
+                                                    A cocktail that’s impossible
+                                                    not to smile while enjoying.
+                                                    A beverage experience
+                                                    complete with its own cosmic
+                                                    lore.
+                                                  </p>
+                                                  <a
+                                                    href="https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x440c9ef2788c03abc02b7d679b28bc6f3159298a&chain=mainnet"
+                                                    class="ctabtn consumer-market-link"
+                                                  >
+                                                    Buy Now
+                                                    <img
+                                                      decoding="async"
+                                                      class="yeti-eyes-img"
+                                                      src="/wp-content/uploads/2021/08/eyes.svg"
+                                                  /></a>
+                                                </div>
+                                              </div>
+                                            </h3>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="vlt-projects-showcase__image">
+                                    <img
+                                      data-src="/wp-content/uploads/2021/08/bottom-1-1920x1080.jpg"
+                                      class="swiper-lazy"
+                                    />
+                                    <div class="swiper-lazy-preloader"></div>
+                                  </div>
+                                </div>
+                                <div class="vlt-projects-showcase__item">
+                                  <div class="container">
+                                    <div
+                                      class="row d-flex align-items-center no-gutters"
+                                    >
+                                      <div class="col-md-12">
+                                        <div
+                                          class="vlt-projects-showcase__content"
+                                        >
+                                          <div
+                                            data-swiper-parallax="-150"
+                                            data-swiper-parallax-scale="0.9"
+                                            data-swiper-parallax-duration="1000"
+                                          >
+                                            <h3>
+                                              <div id="slide-context3">
+                                                <div
+                                                  class="img1"
+                                                  data-depth="0.30"
+                                                >
+                                                  <img
+                                                    decoding="async"
+                                                    class="middle-img-layer"
+                                                    src="/wp-content/uploads/2021/10/middle4.png"
+                                                  />
+                                                </div>
+                                                <div
+                                                  class="img2"
+                                                  data-depth="0.60"
+                                                >
+                                                  <img
+                                                    decoding="async"
+                                                    class="top-img-layer"
+                                                    src="/wp-content/uploads/2021/10/foreground-2.png"
+                                                  />
+                                                </div>
+                                                <div
+                                                  class="img3"
+                                                  data-depth="0.10"
+                                                >
+                                                  <h2>
+                                                    CLASSIFIED <br />
+                                                    INFORMATION
+                                                  </h2>
+                                                  <p>
+                                                    Scientists theorize Grisly's
+                                                    Cosmic Black was brought to
+                                                    earth by an interdimensional
+                                                    space traveler known by
+                                                    codename “Grisly Eddie”
+                                                    (Earthbound Drink-Delivering
+                                                    Intelligent
+                                                    Extraterrestrial).
+                                                  </p>
+                                                </div>
+                                                <div
+                                                  class="img4"
+                                                  data-depth="0.20"
+                                                >
+                                                  <p>
+                                                    This cosmic space yeti has
+                                                    come to our planet to spread
+                                                    the gospel of deliciousness.
+                                                    Eyewitnesses have described
+                                                    him as “Funky,”
+                                                    “Fun-Loving,” and “A Really
+                                                    Good Dancer.”
+                                                  </p>
+                                                  <a
+                                                    href="https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x440c9ef2788c03abc02b7d679b28bc6f3159298a&chain=mainnet"
+                                                    class="ctabtn consumer-market-link"
+													style="display: flex!important; justify-content: center;"
+                                                  >
+                                                    Buy Now
+                                                    <img
+                                                      decoding="async"
+                                                      class="yeti-eyes-img"
+                                                      src="/wp-content/uploads/2021/08/eyes.svg"
+                                                  /></a>
+                                                </div>
+                                              </div>
+                                            </h3>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="vlt-projects-showcase__image">
+                                    <img
+                                      data-src="/wp-content/uploads/2021/08/background4-1920x1080.jpg"
+                                      class="swiper-lazy"
+                                    />
+                                    <div class="swiper-lazy-preloader"></div>
+                                  </div>
+                                </div>
+                                <div class="vlt-projects-showcase__item">
+                                  <div class="container">
+                                    <div
+                                      class="row d-flex align-items-center no-gutters"
+                                    >
+                                      <div class="col-md-12">
+                                        <div
+                                          class="vlt-projects-showcase__content"
+                                        >
+                                          <div
+                                            data-swiper-parallax="-150"
+                                            data-swiper-parallax-scale="0.9"
+                                            data-swiper-parallax-duration="1000"
+                                          >
+                                            <h3>
+                                              <div id="slide-context4">
+                                                <div
+                                                  class="img1"
+                                                  data-depth="0.30"
+                                                >
+                                                  <img
+                                                    decoding="async"
+                                                    class="middle-img-layer"
+                                                    src="/wp-content/uploads/2021/10/middle3.png"
+                                                  />
+                                                </div>
+                                                <div
+                                                  class="img2"
+                                                  data-depth="0.60"
+                                                >
+                                                  <img
+                                                    decoding="async"
+                                                    class="top-img-layer"
+                                                    src="/wp-content/uploads/2021/10/foreground-3.png"
+                                                  />
+                                                </div>
+                                                <div
+                                                  class="img3"
+                                                  data-depth="0.10"
+                                                >
+                                                  <h2>
+                                                    GRISLY<br/>
+													TOKENOMICS
+                                                  </h2>
+                                                  <a
+                                                    class="consumer-market-link storefinder"
+                                                  >
+                                                    <span>Total Supply:</span>
+												  	<span>1B</span>
+												 </a>
+                                                  <a
+                                                    class="consumer-market-link buyonline"
+                                                  >
+                                                    100% LP BURNT
+                                                  </a>
+                                                  <a
+                                                    class="consumer-market-link merchandise"
+                                                  >
+                                                    Buy/Sell Tax 0%
+												</a>
+                                                  <a
+												  class="consumer-market-link loudspeaker"
+                                                    >Contract Renounced</a>
+                                                </div>
+                                              </div>
+                                            </h3>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="vlt-projects-showcase__image">
+                                    <img
+                                      data-src="/wp-content/uploads/2021/08/background3-1-1920x1080.jpg"
+                                      class="swiper-lazy"
+                                    />
+                                    <div class="swiper-lazy-preloader"></div>
+                                  </div>
+                                </div>
+                                <div class="vlt-projects-showcase__item">
+                                  <div class="container">
+                                    <div
+                                      class="row d-flex align-items-center no-gutters"
+                                    >
+                                      <div class="col-md-12">
+                                        <div
+                                          class="vlt-projects-showcase__content"
+                                        >
+                                          <div
+                                            data-swiper-parallax="-150"
+                                            data-swiper-parallax-scale="0.9"
+                                            data-swiper-parallax-duration="1000"
+                                          >
+                                            <h3>
+                                              <div id="slide-context5">
+                                                <div
+                                                  class="img1"
+                                                  data-depth="0.30"
+                                                >
+                                                  <img
+                                                    decoding="async"
+                                                    class="middle-img-layer"
+                                                    src="/wp-content/uploads/2021/10/middle-2.png"
+                                                  />
+                                                </div>
+                                                <div
+                                                  class="img2"
+                                                  data-depth="0.60"
+                                                >
+                                                  <img
+                                                    decoding="async"
+                                                    class="top-img-layer"
+                                                    src="/wp-content/uploads/2021/08/foreground.svg"
+                                                  />
+                                                </div>
+                                                <div
+                                                  class="img3"
+                                                  data-depth="0.10"
+                                                >
+                                                  <h2>
+                                                    ALCOHOLISM <br />RESOURCES
+                                                  </h2>
+                                                  <p>
+                                                    Grisly's Cosmic encourages
+                                                    everyone to drink
+                                                    responsibly. Please
+                                                    visit our website
+                                                    for additional resources for
+                                                    maintaining sobriety and
+                                                    addressing any concerns with
+                                                    alcohol use for you or your
+                                                    loved ones.
+                                                  </p>
+                                                </div>
+                                              </div>
+                                            </h3>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="vlt-projects-showcase__image">
+                                    <img
+                                      data-src="/wp-content/uploads/2021/08/background5.jpg"
+                                      class="swiper-lazy"
+                                    />
+                                    <div class="swiper-lazy-preloader"></div>
+                                  </div>
+                                </div>
+                                <div class="vlt-projects-showcase__item">
+                                  <div class="container">
+                                    <div
+                                      class="row d-flex align-items-center no-gutters"
+                                    >
+                                      <div class="col-md-12">
+                                        <div
+                                          class="vlt-projects-showcase__content"
+                                        >
+                                          <div
+                                            data-swiper-parallax="-150"
+                                            data-swiper-parallax-scale="0.9"
+                                            data-swiper-parallax-duration="1000"
+                                          >
+                                            <h3>
+                                              <div id="slide-context6">
+                                                <div
+                                                  class="img1"
+                                                  data-depth="0.30"
+                                                >
+                                                  <img
+                                                    decoding="async"
+                                                    class="middle-img-layer"
+                                                    src="/wp-content/uploads/2021/10/middle-1.png"
+                                                  />
+                                                </div>
+                                                <div
+                                                  class="img2"
+                                                  data-depth="0.60"
+                                                >
+                                                  <img
+                                                    decoding="async"
+                                                    class="top-img-layer"
+                                                    src="/wp-content/uploads/2021/10/foreground-1.png"
+                                                  />
+                                                </div>
+                                                <div
+                                                  class="img3"
+                                                  data-depth="0.10"
+                                                >
+                                                  <p class="txt-right">
+                                                    <a href="https://x.com/GrislyOfficial"
+                                                      >Twitter</a
+                                                    >
+                                                    |
+                                                    <a
+                                                      target="_blank"
+                                                      href="https://t.me/grisly_chat"
+                                                      >Telegram</a
+                                                    >
+                                                    |
+                                                    <a
+                                                      href="https://dexscreener.com/ethereum/0x440c9ef2788c03abc02b7d679b28bc6f3159298a"
+                                                      >Dexscreener</a
+                                                    >
+                                                    |
+                                                    <a href="https://www.dextools.io/"
+                                                      >Dextools</a
+                                                    >
+                                                  </p>
+                                                  <p class="txt-left">
+                                                    © 2024.
+                                                    <strong
+                                                      >Grisly</strong
+                                                    >. All Rights Reserved.
+                                                  </p>
+                                                </div>
+                                              </div>
+                                            </h3>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="vlt-projects-showcase__image">
+                                    <img
+                                      data-src="/wp-content/uploads/2021/08/background-1-2.svg"
+                                      class="swiper-lazy"
+                                    />
+                                    <div class="swiper-lazy-preloader"></div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="vlt-swiper-pagination vlt-swiper-pagination--style-2 vlt-display-1"
+                              >
+                                <div class="container"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            id="scroll-down-img"
+                            class="wpb_single_image wpb_content_element vc_align_center wpb_content_element"
+                          >
+                            <figure class="wpb_wrapper vc_figure">
+                              <div
+                                class="vc_single_image-wrapper vc_box_border_grey"
+                              >
+                                <img
+                                  decoding="async"
+                                  width="50"
+                                  height="50"
+                                  src="/wp-content/uploads/2022/05/50x50_DownArrow_BlackYetiBeverage_V1.png"
+                                  class="vc_single_image-img attachment-full"
+                                  alt=""
+                                  title="50x50_DownArrow_BlackYetiBeverage_V1"
+                                />
+                              </div>
+                            </figure>
+                          </div>
+                          <div class="wpb_raw_code wpb_raw_js">
+                            <div class="wpb_wrapper"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="vc_row-full-width vc_clearfix"></div>
+                </section>
+                <div class="vc_row-full-width vc_clearfix"></div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </article>
+        </main>
+        <a
+          href="#"
+          class="vlt-btn vlt-btn--secondary vlt-btn--effect vlt-btn--back-to-top hidden"
+          ><span><i class="leedo-chevron-up"></i></span
+        ></a>
+      </div>
+    </div>
+    <template id="tmpl-age-gate"
+      ><div class="age-gate-wrapper">
+        <div class="age-gate-loader">
+          <svg
+            version="1.1"
+            id="L5"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 100 100"
+            enable-background="new 0 0 0 0"
+            xml:space="preserve"
+          >
+            <circle fill="currentColor" stroke="none" cx="6" cy="50" r="6">
+              <animateTransform
+                attributeName="transform"
+                dur="1s"
+                type="translate"
+                values="0 15 ; 0 -15; 0 15"
+                repeatCount="indefinite"
+                begin="0.1"
+              />
+            </circle>
+            <circle fill="currentColor" stroke="none" cx="30" cy="50" r="6">
+              <animateTransform
+                attributeName="transform"
+                dur="1s"
+                type="translate"
+                values="0 10 ; 0 -10; 0 10"
+                repeatCount="indefinite"
+                begin="0.2"
+              />
+            </circle>
+            <circle fill="currentColor" stroke="none" cx="54" cy="50" r="6">
+              <animateTransform
+                attributeName="transform"
+                dur="1s"
+                type="translate"
+                values="0 5 ; 0 -5; 0 5"
+                repeatCount="indefinite"
+                begin="0.3"
+              />
+            </circle>
+          </svg>
+        </div>
+        <div class="age-gate-background-color"></div>
+        <div class="age-gate-background"></div>
+        <div class="age-gate" role="dialog" aria-modal="true" aria-label="">
+          <form method="post" class="age-gate-form">
+            <div class="age-gate-heading">
+              <h1 class="age-gate-heading-title">GrislysCosmic</h1>
+            </div>
+            <h2 class="age-gate-headline">Are you over 21 years of age?</h2>
+            <p class="age-gate-subheadline"></p>
+            <div class="age-gate-fields">
+              <p class="age-gate-challenge"></p>
+              <div class="age-gate-buttons">
+                <button
+                  type="submit"
+                  class="age-gate-submit age-gate-submit-yes"
+                  data-submit="yes"
+                  value="1"
+                  name="age_gate[confirm]"
+                >
+                  Yes
+                </button>
+                <button
+                  class="age-gate-submit age-gate-submit-no"
+                  data-submit="no"
+                  value="0"
+                  name="age_gate[confirm]"
+                  type="submit"
+                >
+                  No
+                </button>
+              </div>
+            </div>
+            <input
+              type="hidden"
+              name="age_gate[age]"
+              value="HFwF0WxzrtxTHKNqmsTzFA=="
+            />
+            <input
+              type="hidden"
+              name="age_gate[nonce]"
+              value="23042a82a9"
+            /><input
+              type="hidden"
+              name="_wp_http_referer"
+              value="/dev/"
+            /><input type="hidden" name="age_gate[lang]" value="en" />
+            <input type="hidden" name="age_gate[confirm]" />
+            <div class="age-gate-errors"></div>
+            <div class="age-gate-additional-information">
+              <p>
+                THE ALCOHOL PRODUCTS ON THIS WEBSITE ARE INTENDED FOR ADULTS
+                ONLY. By entering this website, you certify that you are of
+                legal drinking age in the location in which you reside (age 21
+                in the United States).
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </template>
+    <script>
+      jQuery(
+        "#menu-main-menue .menu-item-has-children > a, #menu-main-menue .menu-item-has-children > .sub-menu"
+      ).hover(
+        function () {
+          jQuery(this).parent().find(".sub-menu").show();
+        },
+        function () {
+          jQuery(this).parent().find(".sub-menu").hide();
+        }
+      );
+    </script>
+    <script type="text/html" id="wpb-modifications">
+      window.wpbCustomElement = 1;
+    </script>
+    <script type="text/javascript">
+      (function () {
+        var c = document.body.className;
+        c = c.replace(/woocommerce-no-js/, "woocommerce-js");
+        document.body.className = c;
+      })();
+    </script>
+    <link
+      rel="stylesheet"
+      id="wc-blocks-style-css"
+      href="/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-9.3.3"
+      type="text/css"
+      media="all"
+    />
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/advanced-backgrounds/assets/vendor/jarallax/dist/jarallax.min.js?ver=2.2.0"
+      id="jarallax-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/advanced-backgrounds/assets/vendor/jarallax/dist/jarallax-video.min.js?ver=2.2.0"
+      id="jarallax-video-js"
+    ></script>
+    <script type="text/javascript" id="awb-js-extra">
+      var AWB = {
+        version: "1.12.4",
+        settings: {
+          disable_parallax: [],
+          disable_video: [],
+          full_width_fallback: false,
+        },
+      };
+    </script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/advanced-backgrounds/assets/awb/awb.min.js?ver=1.12.4"
+      id="awb-js"
+    ></script>
+    <script type="text/javascript" id="age-gate-all-js-extra">
+      var age_gate_common = {
+        cookies:
+          "Your browser does not support cookies, you may experience problems entering this site",
+        simple: "",
+      };
+    </script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/age-gate/dist/all.js?ver=3.5.0"
+      id="age-gate-all-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-includes/js/dist/hooks.min.js?ver=2810c76e705dd1a53b18"
+      id="wp-hooks-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6"
+      id="wp-i18n-js"
+    ></script>
+    <script type="text/javascript" id="wp-i18n-js-after">
+      wp.i18n.setLocaleData({ "text direction\u0004ltr": ["ltr"] });
+    </script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.9.8"
+      id="swv-js"
+    ></script>
+    <script type="text/javascript" id="contact-form-7-js-extra">
+      var wpcf7 = {
+        api: {
+          root: "https:\/\/grislyscosmic.com\/dev\/wp-json\/",
+          namespace: "contact-form-7\/v1",
+        },
+      };
+    </script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.9.8"
+      id="contact-form-7-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-includes/js/imagesloaded.min.js?ver=5.0.0"
+      id="imagesloaded-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-includes/js/masonry.min.js?ver=4.2.2"
+      id="masonry-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-includes/js/jquery/jquery.masonry.min.js?ver=3.1.2b"
+      id="jquery-masonry-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/themes/leedo/assets/vendors/superfish.js?ver=1.0.0"
+      id="superfish-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/themes/leedo/assets/vendors/superclick.min.js?ver=1.0.0"
+      id="superclick-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/themes/leedo/assets/vendors/jquery.inview.min.js?ver=1.0.0"
+      id="inview-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/themes/leedo/assets/vendors/theia-sticky-sidebar.min.js?ver=1.0.0"
+      id="theia-sticky-sidebar-js"
+    ></script>
+    <script type="text/javascript" id="fancybox-js-before">
+      (function ($) {
+        if (!$) {
+          return;
+        }
+
+        function escAttr(text) {
+          return text
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;")
+            .replace(/"/g, "&quot;")
+            .replace(/"/g, "&#039;");
+        }
+
+        $(document).on("click", "[data-fancybox]", function (e) {
+          const $this = $(this);
+          const caption = $this.attr("data-caption");
+
+          if (caption) {
+            $this.attr("data-caption", escAttr(caption));
+          }
+        });
+      })(window.jQuery);
+    </script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/visual-portfolio/assets/vendor/fancybox/dist/jquery.fancybox.min.js?ver=3.5.7"
+      id="fancybox-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/themes/leedo/assets/vendors/jquery.fitvids.js?ver=1.0.0"
+      id="fitvids-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/themes/leedo/assets/vendors/jarallax-element.min.js?ver=1.0.0"
+      id="jarallax-element-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/themes/leedo/assets/vendors/jquery.scrollTo.min.js?ver=1.0.0"
+      id="scrollTo-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/visual-portfolio/assets/vendor/swiper/swiper-bundle.min.js?ver=8.4.7"
+      id="swiper-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/themes/leedo/assets/vendors/fastclick.js?ver=1.0.0"
+      id="fastclick-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/themes/leedo/assets/vendors/anime.min.js?ver=1.0.0"
+      id="anime-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/themes/leedo/assets/vendors/jquery.matchHeight-min.js?ver=1.0.0"
+      id="matchHeight-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/themes/leedo/assets/vendors/howler.core.js?ver=1.0.0"
+      id="howler-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/themes/leedo/assets/vendors/jquery.ajaxchimp.min.js?ver=1.0.0"
+      id="ajaxchimp-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/themes/leedo/assets/vendors/jquery.fittext.js?ver=1.0.0"
+      id="fittext-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/themes/leedo/assets/vendors/jquery.countdown.min.js?ver=1.0.0"
+      id="countdown-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/themes/leedo/assets/vendors/circle-progress.min.js?ver=1.0.0"
+      id="circle-progress-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/themes/leedo/assets/vendors/css-vars-ponyfill.min.js?ver=1.0.0"
+      id="vars-ponyfill-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/themes/leedo/assets/vendors/aos.js?ver=1.0.0"
+      id="aos-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/themes/leedo/assets/scripts/vlt-helpers.js?ver=1.0.0"
+      id="vlt-helpers-js"
+    ></script>
+    <script type="text/javascript" id="vlt-controllers-js-extra">
+      var VLT_SUBSCRIBE_CDATA = {
+        subscribe_thank_you_page: "https:\/\/grislyscosmic.com\/dev\/",
+        subscribe_submit: "Submitting...",
+        subscribe_string_0:
+          "We have sent you a confirmation email. Please check your inbox.",
+        subscribe_string_1: "Please enter your email.",
+        subscribe_string_2:
+          'An email address must contain a single "@" character.',
+        subscribe_string_3:
+          "This email seems to be invalid. Please enter a correct one.",
+        subscribe_string_4:
+          "This email seems to be invalid. Please enter a correct one.",
+        subscribe_string_5:
+          "This email address looks fake or invalid. Please enter a real email address.",
+      };
+      var VLT_COUNTDOWN_CDATA = {
+        days: "Days",
+        hours: "Hours",
+        minutes: "Minutes",
+        seconds: "Seconds",
+      };
+    </script>
+    <script
+      type="text/javascript"
+      src="/wp-content/themes/leedo/assets/scripts/vlt-controllers.js?ver=1.0.0"
+      id="vlt-controllers-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=9.3.3"
+      id="sourcebuster-js-js"
+    ></script>
+    <script type="text/javascript" id="wc-order-attribution-js-extra">
+      var wc_order_attribution = {
+        params: {
+          lifetime: 1.0000000000000000818030539140313095458623138256371021270751953125e-5,
+          session: 30,
+          base64: false,
+          ajaxurl: "https:\/\/grislyscosmic.com\/dev\/wp-admin\/admin-ajax.php",
+          prefix: "wc_order_attribution_",
+          allowTracking: true,
+        },
+        fields: {
+          source_type: "current.typ",
+          referrer: "current_add.rf",
+          utm_campaign: "current.cmp",
+          utm_source: "current.src",
+          utm_medium: "current.mdm",
+          utm_content: "current.cnt",
+          utm_id: "current.id",
+          utm_term: "current.trm",
+          utm_source_platform: "current.plt",
+          utm_creative_format: "current.fmt",
+          utm_marketing_tactic: "current.tct",
+          session_entry: "current_add.ep",
+          session_start_time: "current_add.fd",
+          session_pages: "session.pgs",
+          session_count: "udata.vst",
+          user_agent: "udata.uag",
+        },
+      };
+    </script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=9.3.3"
+      id="wc-order-attribution-js"
+    ></script>
+    <script type="text/javascript" id="age-gate-js-extra">
+      var age_gate = {
+        cookieDomain: "",
+        cookieName: "age_gate",
+        age: "21",
+        css: "v2",
+        userAgents: [],
+        switchTitle: "",
+        rechallenge: "1",
+        error: "You are not old enough to view this content",
+        generic: "An error occurred, please try again",
+        uri: "https:\/\/grislyscosmic.com\/dev\/wp-json\/age-gate\/v3\/check",
+        useLocalStorage: "",
+        viewport: "1",
+        fallback: "https:\/\/grislyscosmic.com\/dev\/wp-admin\/admin-ajax.php",
+      };
+    </script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/age-gate/dist/age-gate.js?ver=3.5.0"
+      id="age-gate-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=7.9"
+      id="wpb_composer_front_js-js"
+    ></script>
+    <script></script>
+    <script>
+      var slide_context8 = document.getElementById("slide-context8");
+      var parallax8 = new Parallax(slide_context8);
+    </script>
+    <script>
+      var slide_context1 = document.getElementById("slide-context1");
+      var parallax = new Parallax(slide_context1);
+      var slide_context2 = document.getElementById("slide-context2");
+      var parallax2 = new Parallax(slide_context2);
+      var slide_context3 = document.getElementById("slide-context3");
+      var parallax3 = new Parallax(slide_context3);
+
+      var slide_context4 = document.getElementById("slide-context4");
+      var parallax4 = new Parallax(slide_context4);
+
+      var slide_context5 = document.getElementById("slide-context5");
+      var parallax5 = new Parallax(slide_context5);
+
+      var slide_context6 = document.getElementById("slide-context6");
+      var parallax6 = new Parallax(slide_context6);
+
+      var eventTriggerCounter = 0;
+
+      jQuery(window).on("load", function () {
+        console.log("document is ready");
+
+        setTimeout(function () {
+          const swiper = document.querySelector(".swiper-container").swiper;
+
+          //const swiper = document.querySelector('.swiper-container').swiper;
+          //swiper.disable();
+
+          swiper.on("slideChange", function (e) {
+            console.log("slide changed");
+            console.log(this.activeIndex);
+            console.log("event trigger count " + eventTriggerCounter);
+            if (eventTriggerCounter == 1) {
+              if (this.activeIndex == 0) {
+                document.location.hash = "";
+              }
+              if (this.activeIndex == 1) {
+                document.location.hash = "#product-information";
+              }
+              if (this.activeIndex == 2) {
+                document.location.hash = "#about-us";
+              }
+              if (this.activeIndex == 3) {
+                document.location.hash = "#grisly-lore";
+              }
+              if (this.activeIndex == 4) {
+                document.location.hash = "#find-us";
+              }
+
+              if (this.activeIndex == 5) {
+                //this.disable();
+                document.location.hash = "#alcoholism-resources";
+                jQuery("#vlt-fullscreen-menu-open").css({
+                  filter: "invert(1)",
+                });
+                jQuery("#vlt-mobile-menu-toggle").css({ filter: "none" });
+                //jQuery('.vlt-navbar-logo').css({"filter":"none"});
+                jQuery(".vlt-navbar--mobile .vlt-navbar-logo ").css({
+                  filter: "none",
+                });
+                jQuery(".vlt-navbar-logo .white").css({ filter: "invert(1)" });
+                jQuery("#scroll-down-img").css({ filter: "invert(1)" });
+              } else {
+                jQuery("#vlt-fullscreen-menu-open").css({ filter: "none" });
+                jQuery("#vlt-mobile-menu-toggle").css({ filter: "invert(1)" });
+                jQuery(".vlt-navbar--mobile .vlt-navbar-logo").css({
+                  filter: "invert(1)",
+                });
+                jQuery(".vlt-navbar-logo .white").css({ filter: "none" });
+
+                jQuery("#scroll-down-img").css({ filter: "none" });
+                //this.enable();
+              }
+              if (this.activeIndex == 6) {
+                document.location.hash = "#follow-us";
+                jQuery("#scroll-down-img").css({ display: "none" });
+              } else {
+                jQuery("#scroll-down-img").css({ display: "block" });
+              }
+              //jQuery("#scroll-down-img").removeAttr("disabled");
+              //e.stopPropagation();
+            }
+          });
+
+          /*swiper.on('click',function(){
+console.log('slide clicked/taped');
+});*/
+          hashChangeTriggered();
+        }, 1000);
+
+        //jQuery('.all-location').appendTo(jQuery('.location-wrapper'));
+
+        jQuery("body").on("click", "#scroll-down-img", function (e) {
+          //this.disabled=true;
+          jQuery(this).css({ display: "none" });
+          setTimeout(function () {
+            const swiper = document.querySelector(".swiper-container").swiper;
+            swiper.slideNext();
+          }, 500);
+        });
+
+        jQuery(window).on("hashchange", function () {
+          if (jQuery(".vlt-fullscreen-navigation-holder").is(":visible")) {
+            jQuery("#vlt-fullscreen-menu-close").trigger("click");
+          }
+          if (jQuery(".vlt-mobile-navigation").is(":visible")) {
+            jQuery("#vlt-mobile-menu-toggle").trigger("click");
+          }
+          hashChangeTriggered();
+        });
+
+        jQuery(".location-wrapper").scroll(function () {
+          /*console.log("scrolltop="+jQuery(this).scrollTop() +" - innerhight="+jQuery(this).innerHeight() +" Scrollhieght="+ jQuery(this)[0].scrollHeight);*/
+          const swiper = document.querySelector(".swiper-container").swiper;
+
+          if (
+            jQuery(this).scrollTop() + jQuery(this).innerHeight() + 1 >=
+            jQuery(this)[0].scrollHeight
+          ) {
+            //console.log('end reached');
+            swiper.enable();
+          }
+
+          if (jQuery(this).scrollTop() == 0) {
+            console.log("top reached");
+            swiper.enable();
+          }
+        });
+      });
+      function hashChangeTriggered() {
+        console.log("haschange triggerd");
+        var chash = location.hash;
+
+        eventTriggerCounter = 0;
+
+        setTimeout(function () {
+          const swiper = document.querySelector(".swiper-container").swiper;
+
+          if (chash == "#welcome") {
+            swiper.slideTo(0);
+          }
+          if (chash == "#product-information") {
+            swiper.slideTo(1);
+          }
+          if (chash == "#about-us") {
+            swiper.slideTo(2);
+          }
+          if (chash == "#grisly-lore") {
+            swiper.slideTo(3);
+          }
+          if (chash == "#find-us") {
+            swiper.slideTo(4);
+          }
+          if (chash == "#alcoholism-resources") {
+            swiper.slideTo(5);
+          }
+          if (chash == "#follow-us") {
+            swiper.slideTo(6);
+          }
+          eventTriggerCounter = 1;
+        }, 500);
+      }
+    </script>
+  </body>
+</html>
